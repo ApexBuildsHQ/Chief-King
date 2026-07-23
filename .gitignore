@@ -1,0 +1,13 @@
+# Environment variables (حماية المفاتيح الحساسة)
+.env
+.env.local
+*.env
+
+# Node.js modules (المكتبات)
+node_modules/
+
+# Logs & Temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
