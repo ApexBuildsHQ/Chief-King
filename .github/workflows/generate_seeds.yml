@@ -1,0 +1,34 @@
+name: Chief King - Generate Recipe Seeds
+
+on:
+  workflow_dispatch: # يتيح لك تشغيل السكريبت يدوياً بضغطة زر من الموقع
+
+jobs:
+  run-seeder:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # إعطاء صلاحية لحفظ وتحديث الملفات في Repository
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install @google/generative-ai dotenv groq-sdk
+
+      - name: Run Recipe Seeder Engine
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_KEY_4: ${{ secrets.GEMINI_KEY_4 }}
+        run: node generate_seo_seeds.js
+
+      - name: Commit and Push Updated Recipes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "auto: generate and update recipes JSON"
+          file_pattern: "master_20k_recipes.json seeding_progress.json"
+
