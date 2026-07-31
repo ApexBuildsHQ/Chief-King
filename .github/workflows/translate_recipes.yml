@@ -1,0 +1,31 @@
+name: Chief King - Fast Python Translation Engine
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-python-translator:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install deep-translator
+
+      - name: Run Fast Python Translation
+        run: python fast_translate.py
+
+      - name: Commit and Push Translated Files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "auto: add 50-language translated recipe chunks"
+          file_pattern: "chunk_recipes/*.json python_trans_progress.json"
+
