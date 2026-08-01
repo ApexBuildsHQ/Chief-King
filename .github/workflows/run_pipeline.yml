@@ -1,0 +1,39 @@
+name: Complete Recipe Pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install deep-translator duckduckgo_search
+
+      - name: Step 1 - Build Dictionary
+        run: python build_dict.py
+
+      - name: Step 2 - Fetch Images & Youtube Links
+        run: python fetch_media.py
+
+      - name: Step 3 - Run Translation Engine
+        run: python fast_translate.py
+
+      - name: Commit and Push All Generated Data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Pipeline"
+          git add ingredients_dict.json master_20k_recipes.json chunk_recipes/
+          git diff-index --quiet HEAD || git commit -m "Auto-pipeline: Dict, Media & Multi-lang output"
+          git push
+
