@@ -1,7 +1,7 @@
 name: Build Mega Dictionary
 
 on:
-  workflow_dispatch: # يتيح لك تشغيل الأمر بضغطة زر يدوياً من GitHub
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
           pip install deep-translator
 
       - name: Run dictionary builder script
-        run: python build_dict.py
+        run: python -u build_dict.py # 👈 تم إضافة -u هنا لطباعة المخرجات مباشرة
 
       - name: Commit and push generated dictionary
         run: |
