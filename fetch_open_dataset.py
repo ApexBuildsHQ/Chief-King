@@ -1,46 +1,46 @@
-import urllib.request
+import pandas as pd
 import json
-import os
 
-# رابط مباشر لقاعدة بيانات مفتوحة موثوقة
-DATASET_URL = "https://raw.githubusercontent.com/raywenderlich/recipes/master/Recipes.json"
+# رابط مباشر لقاعدة بيانات Food.com الضخمة المفتوحة على HuggingFace (تضم +230 ألف وصفة)
+DATASET_PARQUET_URL = "https://huggingface.co/datasets/mbien/food-com-recipes/resolve/main/data/train-00000-of-00001.parquet"
 
 def fetch_and_filter_top_recipes():
-    print("📥 جلب قاعدة البيانات المفتوحة تلقائياً داخل السيرفر...")
+    print("📥 جلب قاعدة بيانات Food.com العالمية الضخمة من Hugging Face...")
     
     try:
-        req = urllib.request.Request(DATASET_URL, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read().decode())
-            
-        print(f"📊 تم إيجاد {len(data)} وصفة خام، جاري التصفية واستخراج الأفضل...")
+        # قراءة قاعدة البيانات مباشرة إلى Pandas Dataframe
+        df = pd.read_parquet(DATASET_PARQUET_URL)
+        print(f"📊 تم إيجاد {len(df)} وصفة عالمية حقيقية! جاري الفرز والتصفية...")
+
+        # تنظيف البيانات وفرزها حسب الأعلى تقييماً (Rating / Review Count)
+        if 'rating' in df.columns:
+            df = df.sort_values(by='rating', ascending=False)
         
-        filtered_recipes = []
-        for idx, item in enumerate(data):
+        # اختيار أعلى 20,000 وصفة
+        top_20k_df = df.head(20000)
+
+        recipes_list = []
+        for idx, row in top_20k_df.iterrows():
             recipe = {
-                "id": idx + 1,
-                "title": item.get("name") or item.get("title") or "Delicious Recipe",
-                "category": item.get("category", "Main Course"),
-                "description": item.get("description", ""),
-                "prepTime": str(item.get("prepTime", "15m")),
-                "cookTime": str(item.get("cookTime", "20m")),
-                "ingredients": item.get("ingredients", []),
-                "instructions": item.get("instructions", item.get("steps", [])),
-                "rating": item.get("rating", 5.0)
+                "id": len(recipes_list) + 1,
+                "title": str(row.get('name') or row.get('title') or "Recipe"),
+                "category": str(row.get('category', 'Main Course')),
+                "description": str(row.get('description', '')),
+                "prepTime": f"{row.get('minutes', 15)}m",
+                "cookTime": "20m",
+                "ingredients": list(row.get('ingredients', [])) if isinstance(row.get('ingredients'), (list, tuple)) else [],
+                "instructions": list(row.get('steps', [])) if isinstance(row.get('steps'), (list, tuple)) else [],
+                "rating": float(row.get('rating', 5.0))
             }
-            filtered_recipes.append(recipe)
-            
-        # ترتبيها حسب التقييم الأفضل واختيار حتى 20,000 وصفة
-        filtered_recipes.sort(key=lambda x: x.get('rating', 0), reverse=True)
-        top_20k = filtered_recipes[:20000]
+            recipes_list.append(recipe)
 
         with open('raw_recipes.json', 'w', encoding='utf-8') as f:
-            json.dump(top_20k, f, ensure_ascii=False, indent=2)
+            json.dump(recipes_list, f, ensure_ascii=False, indent=2)
 
-        print(f"✅ تم إنشاء raw_recipes.json بنجاح وبداخله {len(top_20k)} وصفة جاهزة!")
+        print(f"✅ تم إنشاء raw_recipes.json بنجاح بأعلى {len(recipes_list)} وصفة عالمية حقيقية!")
 
     except Exception as e:
-        print(f"❌ حدث خطأ أثناء جلب البيانات: {e}")
+        print(f"❌ حدث خطأ أثناء معالجة البيانات: {e}")
         exit(1)
 
 if __name__ == "__main__":
