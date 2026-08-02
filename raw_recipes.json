@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "title": "Crock Pot Roast",
+    "category": "Main Course",
+    "description": "A delicious and popular recipe for Crock Pot Roast.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "1 beef roast",
+      "1 package brown gravy mix",
+      "1 package dried Italian salad dressing mix",
+      "1 package dry ranch dressing mix",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Place beef roast in crock pot.",
+      "Mix the dried mixes together in a bowl and sprinkle over the roast.",
+      "Pour the water around the roast.",
+      "Cook on low for 7-9 hours."
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 2,
+    "title": "Roasted Asparagus",
+    "category": "Main Course",
+    "description": "A delicious and popular recipe for Roasted Asparagus.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "1 lb asparagus",
+      "1 1/2 tbsp olive oil",
+      "1/2 tsp kosher salt"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F.",
+      "Cut off the woody bottom part of the asparagus spears and discard.",
+      "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
+      "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+      "Sprinkle with salt.",
+      "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+      "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+      "They should be tender when pierced with the tip of a knife.",
+      "The tips of the spears will get very brown but watch them to prevent burning.",
+      "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 3,
+    "title": "Curried Lentils and Rice",
+    "category": "Main Course",
+    "description": "A delicious and popular recipe for Curried Lentils and Rice.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "1 quart beef broth",
+      "1 cup dried green lentils",
+      "1/2 cup basmati rice",
+      "1 tsp curry powder",
+      "1 tsp salt"
+    ],
+    "instructions": [
+      "Bring broth to a low boil.",
+      "Add curry powder and salt.",
+      "Cook lentils for 20 minutes.",
+      "Add rice and simmer for 20 minutes.",
+      "Enjoy!"
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 4,
+    "title": "Big Night Pizza",
+    "category": "Main Course",
+    "description": "A delicious and popular recipe for Big Night Pizza.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "5 teaspoons yeast",
+      "5 cups flour",
+      "4 tablespoons vegetable oil",
+      "2 tablespoons sugar",
+      "2 teaspoons salt",
+      "2 cups hot water",
+      "1/4 cup pizza sauce",
+      "3/4 cup mozzarella cheese"
+    ],
+    "instructions": [
+      "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
+      "Mix in oil, sugar, salt, and flour and let sit for 1 hour.",
+      "Knead the dough and spread onto a pan.",
+      "Spread pizza sauce and sprinkle cheese.",
+      "Add any optional toppings as you wish.",
+      "Bake at 400 deg Fahrenheit for 15 minutes.",
+      "Enjoy!"
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 5,
+    "title": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+    "category": "Main Course",
+    "description": "A delicious and popular recipe for Cranberry and Apple Stuffed Acorn Squash Recipe.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "2 acorn squash",
+      "1 boiling water",
+      "2 apples chopped into 1.4 inch pieces",
+      "1/2 cup dried cranberries",
+      "1 teaspoon cinnamon",
+      "2 tablespoons melted butter"
+    ],
+    "instructions": [
+      "Cut squash in half, remove seeds.",
+      "Place squash in baking dish, cut-side down.",
+      "Pour 1/4-inch water into dish.",
+      "Bake for 30 minutes at 350 degrees F.",
+      "In large bowl, combine remaining ingredients.",
+      "Remove squash from oven, fill with mix.",
+      "Bake for 30-40 more minutes, until squash tender.",
+      "Enjoy!"
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 6,
+    "title": "Mic's Yorkshire Puds",
+    "category": "Main Course",
+    "description": "A delicious and popular recipe for Mic's Yorkshire Puds.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "200g plain flour",
+      "3 eggs",
+      "300ml milk",
+      "3 tbsp vegetable oil"
+    ],
+    "instructions": [
+      "Put the flour and some seasoning into a large bowl.",
+      "Stir in eggs, one at a time.",
+      "Whisk in milk until you have a smooth batter.",
+      "Chill in the fridge for at least 30 minutes.",
+      "Heat oven to 220C/gas mark 7.",
+      "Pour the oil into the holes of a 8-hole muffin tin.",
+      "Heat tin in the oven for 5 minutes.",
+      "Ladle the batter mix into the tin.",
+      "Bake for 30 minutes until well browned and risen."
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 7,
+    "title": "Old-Fashioned Oatmeal Cookies",
+    "category": "Dessert",
+    "description": "A delicious and popular recipe for Old-Fashioned Oatmeal Cookies.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "1 cup raisins",
+      "1 cup water",
+      "3/4 cup shortening",
+      "1 1/2 cups sugar",
+      "2 1/2 cups flour",
+      "1 tsp. soda",
+      "1 tsp. salt",
+      "1 tsp. cinnamon",
+      "1/2 tsp. baking powder",
+      "1/2 tsp. cloves",
+      "2 cups oats",
+      "1/2 cup chopped nuts"
+    ],
+    "instructions": [
+      "Simmer raisins and water over medium heat until raisins are plump, about 15 minutes.",
+      "Drain raisins, reserving the liquid.",
+      "Add enough water to reserved liquid to measure 1/2 cup.",
+      "Heat oven to 400°.",
+      "Mix thoroughly shortening, sugar, eggs and vanilla.",
+      "Stir in reserved liquid.",
+      "Blend in remaining ingredients.",
+      "Drop dough by rounded teaspoonfuls about 2 inches apart onto ungreased baking sheet.",
+      "Bake 8 to 10 minutes or until light brown.",
+      "About 6 1/2 dozen cookies."
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 8,
+    "title": "Blueberry Oatmeal Squares",
+    "category": "Breakfast",
+    "description": "A delicious and popular recipe for Blueberry Oatmeal Squares.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "2-1/2 cups rolled oats, (not instant)",
+      "1-1/4 cups all-purpose flour",
+      "1 tbsp grated orange rind",
+      "1/4 tsp salt",
+      "1 cup cold butter, cubed",
+      "3/4 cup packed brown sugar",
+      "3 cups fresh blueberries",
+      "1/2 cup granulated sugar",
+      "1/3 cup orange juice",
+      "4 tsp cornstarch"
+    ],
+    "instructions": [
+      "Filling: In saucepan, bring blueberries, sugar and orange juice to boil; reduce heat and simmer until tender, about 10 minutes.",
+      "Whisk cornstarch with 2 tbsp (25 mL) water; whisk into blueberries and boil, stirring, until thickened, about 1 minute.",
+      "Place plastic wrap directly on surface; refrigerate until cooled, about 1 hour.",
+      "In large bowl, whisk together oats, flour, sugar, orange rind and salt ; with pastry blender, cut in butter until in coarse crumbs.",
+      "Press half into 8-inch (2 L) square parchment paper–lined metal cake pan; spread with blueberry filling.",
+      "Bake in centre of 350°F oven until light golden, about 45 minutes.",
+      "Let cool on rack before cutting into squares.",
+      "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for up to 2 weeks.)"
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 9,
+    "title": "Curried chicken salad",
+    "category": "Salad & Soup",
+    "description": "A delicious and popular recipe for Curried chicken salad.",
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "ingredients": [
+      "3 skinless, boneless chicken breasts, halved lengthwise",
+      "1/2 cup mayonnaise",
+      "1 tbsp lemon zest",
+      "1 tbsp lemon juice",
+      "1 1/2 tsp curry powder",
+      "1/4 tsp salt",
+      "2 ripe mangoes, diced",
+      "1/4 cup dried cranberries",
+      "2 green onions, thinly sliced",
+      "1 celery stalk, finely chopped",
+      "6 leaves Boston lettuce",
+      "6 English muffins, toasted"
+    ],
+    "instructions": [
+      "ARRANGE chicken in a single layer in a large pot.",
+      "Add water to just cover.",
+      "Bring to a boil over medium-high.",
+      "Flip chicken, reduce heat to medium and simmer until cooked, about 6 more min.",
+      "Cool.",
+      "STIR mayo with lemon zest, juice, curry and salt in large bowl.",
+      "Using 2 forks, shred chicken, then stir into mayo mixture with mango, cranberries, green onions and celery.",
+      "Divide among muffins with lettuce leaves",
+      "Sandwich with tops"
+    ],
+    "rating": 5.0
+  }
+]
