@@ -3,6 +3,9 @@ name: Generate SEO Recipes JSON-LD
 on:
   workflow_dispatch: # يتيح تشغيل السكريبت يدوياً من واجهة GitHub Actions
 
+permissions:
+  contents: write # إعطاء صلاحيات الكتابة والـ Push لـ GitHub Actions
+
 jobs:
   build-and-process:
     runs-on: ubuntu-latest
@@ -41,4 +44,3 @@ jobs:
           git add output_recipes/*.json
           git commit -m "Auto-generate 20,000 SEO JSON-LD recipes [20 Chunks]" || echo "No changes to commit"
           git push
-
