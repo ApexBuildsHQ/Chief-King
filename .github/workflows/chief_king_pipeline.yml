@@ -1,0 +1,113 @@
+name: Chief King Parallel Pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # المرحلة الأولى: جلب البيانات، تنظيف السيو، وتقسيم الـ 20,000 وصفة لـ 20 ملفاً
+  prepare-raw-parts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Scraper Dependencies
+        run: |
+          pip install datasets transformers
+
+      - name: Fetch 20k Recipes Dataset
+        run: |
+          python fetch_and_build_raw_recipes.py
+
+      - name: Run SEO Cleaning & Split Script
+        run: |
+          python 1_prepare_seo_recipes.py
+
+      - name: Upload Raw Parts Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-parts-data
+          path: raw_parts/
+
+  # المرحلة الثانية: تشغيل 20 خادماً مستقلاً لترجمة الأجزاء وتقسيم الـ Chunks
+  translate-matrix:
+    needs: prepare-raw-parts
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Download Raw Parts Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: raw-parts-data
+          path: raw_parts/
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install PyTorch and Transformers
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers sentencepiece
+
+      - name: Run Matrix Translation for Part ${{ matrix.part }}
+        run: |
+          python 2_translate_and_chunk.py --part ${{ matrix.part }}
+
+      - name: Upload Chunks Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chunks-part-${{ matrix.part }}
+          path: |
+            dist_chunks/
+            dist_index_parts/
+
+  # المرحلة الثالثة: دمج كافة أجزاء الفهارس في 4 ملفات رئيسية لكل لغة
+  build-final-indexes:
+    needs: translate-matrix
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Organize Artifact Files
+        run: |
+          mkdir -p dist_index_parts dist_chunks
+          cp -r artifacts/chunks-part-*/dist_index_parts/* dist_index_parts/ || true
+          cp -r artifacts/chunks-part-*/dist_chunks/* dist_chunks/ || true
+
+      - name: Merge 4 Main Indexes per Language
+        run: |
+          python 3_build_main_indexes.py
+
+      - name: Commit and Push Results to Repository
+        run: |
+          git config --global user.name "ChiefKingBot"
+          git config --global user.email "bot@chiefking.com"
+          git add dist_chunks/ dist_final_indexes/
+          git commit -m "Add translated chunks & merged 4 main indexes per language" || exit 0
+          git push
+
