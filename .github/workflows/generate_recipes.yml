@@ -38,6 +38,8 @@ jobs:
           ls -lh RAW_*.csv
 
       - name: Run Recipe Scraper Script
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
           echo "🚀 Starting recipes_scraper.py script..."
           python recipes_scraper.py
