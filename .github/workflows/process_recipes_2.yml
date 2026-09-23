@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Recipe Processor Script for Chunk ${{ matrix.chunk }}
         env:
-          PYTHONUNBUFFERED: "1" # عرض المخرجات والإنذارات فوراً
+          PYTHONUNBUFFERED: "1" # عرض المخرجات والسجلات مباشرة
         run: |
           python process_recipes_2.py ${{ matrix.chunk }}
 
@@ -44,23 +44,22 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. إضافة الملف
+          # 1. إدراج الملف
           git add output_recipes/recipes_chunk_${{ matrix.chunk }}.json
           
-          # 2. التأكد من وجود تغييرات حقيقية
+          # 2. التأكد من وجود تغييرات
           if git diff --staged --quiet; then
             echo "لا توجد تغييرات للرفع."
             exit 0
           fi
           
-          # 3. حفظ التغييرات محلياً في Commit أولاً
+          # 3. تثبيت الـ Commit محلياً لتنظيف البيئة
           git commit -m "Auto-optimize recipe chunk ${{ matrix.chunk }}"
           
-          # 4. حلقة تكرار للـ Fetch و Rebase ثم Push لمنع تعارض السيرفرات الموازية
+          # 4. السحب بالـ Rebase ثم الرفع المباشر
           for i in {1..10}; do
             echo "محاولة الرفع رقم $i..."
-            git fetch origin main
-            git rebase origin/main
+            git pull origin main --rebase || true
             if git push origin main; then
               echo "✅ تم الرفع بنجاح للملف recipes_chunk_${{ matrix.chunk }}.json"
               exit 0
