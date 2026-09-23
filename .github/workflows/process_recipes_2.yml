@@ -4,9 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
-    paths:
-      - 'output_recipes/**'
+      - '**' # يعمل تلقائياً على أي فرع ممرر (سواء Chief أو غيره)
 
 jobs:
   process-and-enrich-recipes:
@@ -21,7 +19,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # جلب التاريخ الكامل للمستودع
+          fetch-depth: 0 # جلب كافة الفروع والتاريخ الكامل
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,7 +33,7 @@ jobs:
 
       - name: Run Recipe Processor Script for Chunk ${{ matrix.chunk }}
         env:
-          PYTHONUNBUFFERED: "1" # عرض المخرجات والسجلات مباشرة
+          PYTHONUNBUFFERED: "1" # عرض السجلات مباشرة ولحظياً
         run: |
           python process_recipes_2.py ${{ matrix.chunk }}
 
@@ -47,21 +45,25 @@ jobs:
           # 1. إدراج الملف
           git add output_recipes/recipes_chunk_${{ matrix.chunk }}.json
           
-          # 2. التأكد من وجود تغييرات
+          # 2. التأكد من وجود تغييرات حقيقية
           if git diff --staged --quiet; then
             echo "لا توجد تغييرات للرفع."
             exit 0
           fi
           
-          # 3. تثبيت الـ Commit محلياً لتنظيف البيئة
+          # 3. حفظ الـ Commit محلياً
           git commit -m "Auto-optimize recipe chunk ${{ matrix.chunk }}"
           
-          # 4. السحب بالـ Rebase ثم الرفع المباشر
+          # 4. جلب اسم الفرع الحالي ديناميكياً (مثلاً Chief)
+          TARGET_BRANCH="${{ github.ref_name }}"
+          echo "الفرع الحالي المستهدف هو: $TARGET_BRANCH"
+          
+          # 5. السحب والرفع على الفرع الصحيح
           for i in {1..10}; do
             echo "محاولة الرفع رقم $i..."
-            git pull origin main --rebase || true
-            if git push origin main; then
-              echo "✅ تم الرفع بنجاح للملف recipes_chunk_${{ matrix.chunk }}.json"
+            git pull origin $TARGET_BRANCH --rebase || true
+            if git push origin HEAD:$TARGET_BRANCH; then
+              echo "✅ تم الرفع بنجاح للملف recipes_chunk_${{ matrix.chunk }}.json إلى الفرع $TARGET_BRANCH"
               exit 0
             fi
             echo "⚠️ تعارض أثناء الرفع، جاري إعادة المحاولة..."
