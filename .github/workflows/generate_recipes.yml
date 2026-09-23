@@ -1,0 +1,54 @@
+name: Generate SEO Recipes JSON-LD with Wikimedia Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: |
+          echo " Installing required libraries..."
+          python -m pip install --upgrade pip
+          pip install pandas kaggle requests
+
+      - name: Download Food.com Dataset from Kaggle
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: |
+          echo "📥 Downloading Kaggle dataset..."
+          kaggle datasets download -d shuyangli94/food-com-recipes-and-user-interactions
+          echo "📦 Unzipping files..."
+          unzip -o food-com-recipes-and-user-interactions.zip
+          echo " List downloaded files:"
+          ls -lh RAW_*.csv
+
+      - name: Run Recipe Scraper Script
+        run: |
+          echo "🚀 Starting recipes_scraper.py script..."
+          python recipes_scraper.py
+
+      - name: Commit and Push Processed Files
+        run: |
+          echo "📤 Checking generated JSON files..."
+          ls -lh output_recipes/
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]"
+          git add output_recipes/*.json
+          git commit -m "Auto-generate 20,000 SEO JSON-LD recipes with Wikimedia images [20 Chunks]" || echo "No changes to commit"
+          git push
+
