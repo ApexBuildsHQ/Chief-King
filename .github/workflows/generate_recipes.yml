@@ -45,10 +45,10 @@ jobs:
       - name: Commit and Push Processed Files
         run: |
           echo "📤 Checking generated JSON files..."
-          ls -lh output_recipes/
+          ls -lh output_recipes_2/
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]"
-          git add output_recipes/*.json
+          git add output_recipes_2/*.json
           git commit -m "Auto-generate 20,000 SEO JSON-LD recipes with Wikimedia images [20 Chunks]" || echo "No changes to commit"
           git push
 
