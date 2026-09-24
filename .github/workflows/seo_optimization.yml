@@ -1,0 +1,44 @@
+name: SEO AI Title Optimization (20 Parallel Runners)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  seo-ai-processing:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: pip install requests
+
+      - name: Install & Run Ollama Engine
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          sleep 5
+          ollama pull qwen2.5:3b
+
+      - name: Run SEO Optimization for Chunk ${{ matrix.chunk_id }}
+        env:
+          PYTHONUNBUFFERED: "1"  # إجبار بايثون على إظهار المخرجات فوراً في الشاشة
+        run: |
+          python process_seo.py --chunk ${{ matrix.chunk_id }}
+
+      - name: Save SEO Processed Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-chunk-${{ matrix.chunk_id }}
+          path: output_recipes_seo/recipes_chunk_${{ matrix.chunk_id }}.json
+
