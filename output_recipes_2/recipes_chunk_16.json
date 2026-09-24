@@ -3,7 +3,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ultimate Favourite Bbq Chicken Pizza",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is my new favourite pizza! i will often make a double batch of the chicken/bbq sauce mixture and freeze it. i usually caramelize the onions by frying them until soft with 1 tbsp of butter and 1 tbsp of brown sugar. this makes the pizza very sweet but i like it that way;)",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -77,7 +77,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Unbelievable Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "copied from allrecipes.com to keep my collection in one place.",
     "totalTime": "PT8H30M",
     "recipeIngredient": [
@@ -236,7 +236,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Wegman S Delicious Spunky Clammy Chowda Longmeadow",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Soup & Stew",
     "description": "we are so lucky to have this wonderful grocery store here in maryland.  saw this recipe on the back of wegmans 5 pound potato sack, and had to try it. i found it delicious, and perfect for a warm sunday dinner, or anytime during the week for that matter.  i had everything on hand, so that made it even easier. *note* -- any changes i made or mentioned are noted in the ( ) area. i hope you enjoy this, as much as we do on the farm. now if i can just figure out how to grow clams!",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -440,7 +440,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Yummy Rice A Roni Salad",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a wonderful salad recipe that i got from my mom. i really enjoy it and it is my husbands favorite. he will request this salad for any occasion.",
     "totalTime": "PT1H30M",
     "recipeIngredient": [
@@ -1249,7 +1249,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Asian Chicken Salad No Noodles",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "at last a asian chicken salad with out deep fried noodles.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -1500,7 +1500,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Australian Beer Barbecued Wings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i got this recipe from \"the barbecue bible\", by steven raichlen.  haven't tried this yet, but wanted to save it with my recipes, as my family loves wings. time does not include 4 hour marinading time.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -1691,7 +1691,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Macaroni And Cheddar",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "adapted from prairie home cooking. this is the way my mother used to make macaroni and cheese. the pasta measurement is the measurement for the dried pasta.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -1805,7 +1805,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Rigatoni Sausage Tuscan Style",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i saw this on a cooking show a long time ago - i think it was ciao italia, but i'm not sure.  it's very easy to make, and the addition of the cannellini beans makes a big difference in taste and heartiness, in my opinion.",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -2461,7 +2461,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Brandied Chicken Wings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "these chicken wings really perk up when they're seasoned with a hint of brandy. they are by far the best chicken wings i've ever tasted.",
     "totalTime": "PT4H15M",
     "recipeIngredient": [
@@ -2522,7 +2522,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Brie Topped Dijon Chicken Breasts",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "a delicous, golden chicken topped with a mild brie cheese.\r\nfor a change of taste, you can also use camembert or mozzarella cheese.\r\nfrom the dairy goodness website.\r\nhope you enjoy!",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -3203,7 +3203,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cajun Shrimp Alfredo",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is my version of dave and buster's cajun shrimp alfredo.  this goes together rather quickly and is so good.  i would certainly serve this to company by doubling the recipe.  also, if you like spicy but not to spicy you can leave out the last addition of the creole seasoning, or you can add more if you really like spicy.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -3315,7 +3315,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Carbless Low Calorie Turkey Lettuce Wraps",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i'm not a huge participant in the low-no carb dieting. however, i am always concerned with my calorie intake. i find the easiest way to cut calories, is to cut out unneccessary carbs. one day, i decided to throw out the tortilla and try wrapping my meal in a lettuce leaf. you get the great taste and nutrition of a regular turkey sandwich or wrap, without the extra 200+ calories or added carbs. it's fast, easy, health and tasty!",
     "totalTime": "PT2M",
     "recipeIngredient": [
@@ -3382,7 +3382,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Charmie S Buffalo Chicken Wontons",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "there are a few recipes out there for these, but i don't really like bleu cheese, so this recipe uses cream cheese. a nice combination of hot and cool flavors!! you can even used leftover chicken or rotisserie chicken.",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -3786,7 +3786,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Avocado Cheese Bake",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "taken from taste of home magazine ---  delicious crispy breaded chicken topped off with avocados and cheese, this is a delicious recipe and worth making! :)",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -3864,7 +3864,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Flautas With Chunky Guacamole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "ole!!! flautas are similar to taquitos, which are rolled tacos. these flautas use flour tortillas to give them light crispiness! the perfect accompaniment is chunky guacamole, with many of the same flavors from the flautas--enjoy!",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -4182,7 +4182,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Clucker In A Crock For Sam Itches",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "salivary gland stimulator.",
     "totalTime": "PT4H10M",
     "recipeIngredient": [
@@ -4240,7 +4240,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cluckin Lo Mein",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i made this up when trying out about 12 other lo mein recipes. this is my variation and very good. i like more sauce as opposed to less, adjust the amount you want when you're putting yours together, you dont need to use it all.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -4995,7 +4995,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Daytona Wings Baked Teriyaki Style Chicken Wings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "growing up in a family of race fans, watching the daytona 500 on tv was something we always looked forward to. mom always made these wings to snack on during the race. once upon a time these were called wing dings, but somewhere along the way they were renamed daytona wings.",
     "totalTime": "PT1H45M",
     "recipeIngredient": [
@@ -5298,7 +5298,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Devilishly Divine Tropical Kabobs With A Devious Twist",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "this recipe is a result of the zaar world   tour 2007 for the caribbean grilling/jerk challenge.  our team - the devilishly devious diners - created this recipe with help and ingredients from all the members. we've included beef, chicken and shrimp but feel free to add or delete any of the different meats.  we used our very own ellie_'s recipe #108351 for the jerk seasoning.  it was very good accompanied by a long grain and wild rice mixture as well as mama's kitchen recipe #139883\r\n\r\nthe rum soaked fruit is our devious contribution to this great recipe!",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -5486,7 +5486,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Duke S Clam Chowder",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Soup & Stew",
     "description": "this is a good clam chowder, from duke's restaurants in seattle, wa. they are famous for their clam chowder.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -5583,7 +5583,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Easy Chicken Corn Chowder With Chilies",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Soup & Stew",
     "description": "altho i don't usually use cream of something soup as a base, this recipe is very good and tastes totally homemade. i've made it for potlucks and the pot is always scraped clean and i'm asked for the recipe!",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -6560,7 +6560,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "French Beef Burgundy For The Crock Pot",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "although i have never tried this recipe, it appears to be a simple meal to fix.",
     "totalTime": "PT6H15M",
     "recipeIngredient": [
@@ -6963,7 +6963,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "George S Crisp Crusted Oven Fried Chicken Jude",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i am posting this recipe to honor judy- jude and also for the \"cookathon\" in memory of her (jan. 09).  one of her favorite chicken recipes was \"george's oven-fried chicken\" and this is the other one.  it was created by her father and i often call it kfc judy d's father's recipe(s). instant potato flakes are used and it has a nice taste.",
     "totalTime": "PT1H15M",
     "recipeIngredient": [
@@ -7286,7 +7286,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ginger Scented Honey Hoisin Chicken Thighs With Sesame",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a yummy chicken recipe, submitted by ruth kendrick, ogden, ut, and a 2009 finalist in the  chicken cooking contest put on by the  national chicken council.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -8346,7 +8346,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Jenn S Sesame Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i think everyone will enjoy this quick and delicious sesame chicken.  serve it over either brown or white rice with steamed broccoli.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -8574,7 +8574,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Kashmiri Chicken Cardamom And Saffron Pilau Spiced Indian Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a wonderfully fragrant and spiced indian chicken dish, with saffron and cardamom studded rice. this has become a popular and much loved family recipe; an indian friend who was studying art with me many years ago, used to make this for all of us art students every saturday night; she finally shared the recipe with us before we all graduated! i have been making this for over 30 years now, and i have never changed a thing! serve this with cool cucumber raita, sambals and naan bread, for a delectable \"one pot\" indian feast. nb: as one reviewer found out, if you use brown rice in this recipe, this adds considerably to the cooking time and you will need more liquid; brown rice takes longer to cook and takes about a third more liquid!",
     "totalTime": "PT1H30M",
     "recipeIngredient": [
@@ -8687,7 +8687,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Kittencal S Asian Pork Wonton Soup Dumplings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "since everyone has their own favorite recipe for wonton soup i am only posting the dumpling recipe but don't just use these for wonton soup these can be cooked in any flavored broth that you wish, or the cooked dumplings may be served on the side with gravy from a stew just make certain that you cook them first in boiling water --- i usually get about 35-40 dumplings, use as many as desired and freeze the rest to use another time, just drop from the frozen state into simmering broth --- i make mine in \"nurse's hat\" shapes you may make them into whatever shape you like, i also like to add in some cayenne pepper for heat ---these are just as good if not better than any asian restaurant, they are very easy to make, very addicting and you will be making them all the time!",
     "totalTime": "PT52M",
     "recipeIngredient": [
@@ -9014,7 +9014,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Lemon Chicken Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "a wonderful clear soup with flavors that",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -9357,7 +9357,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Mark Bittman S Basic Roast Chicken Parts With Variations",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "the simplest chicken recipe there is and perhaps the easiest as well. add the herb here if you like or see the flavoring ideas that follow. this is the kind of dish you’ll never get tired of, because you can change the flavoring every time you make it.\r\nfrom mark bittman's cookbook,\" how to cook everything\" (10th edition).",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -9796,7 +9796,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Mexican Meatball Salsa Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "a very good soup that i have tried before.  an excellent soup to serve with any mexican dish.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -9836,7 +9836,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Micronesian Coconut Chicken Curry",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "the combination of curry, coconut milk, ginger, garlic and all the vegetables was both sweet and spicy in the best imaginable way.\r\nthe country's people are descended from the indigenous people, melanesians, filipino and polynesian ancestors. as such, cuisine in this country reflects spanish, malay and chinese cultures.\r\nposted for zwt7. found in http://whatscookinginyourworld.blogspot.com/2011/03/day-111-micronesia-coconut-chicken.html",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -10360,7 +10360,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Oamc Chicken Fried Rice",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i know there are many fried rice recipes, but here is my own version of a favorite quick oamc lunch and dinner we all enjoy. i hope you do too! to make it oamc just portion out one cup of mix into freezer bags, thaw in the microwave for about 2 minutes, then stir fry in some oil for about another 3 minutes to get that \"fried\" taste and texture. this recipe makes a ton!",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -10859,7 +10859,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Perfect Roasties Roast Potatoes For English Sunday Lunch",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "there can be nothing more comforting then a pile of golden, crispy, crunchy roast potatoes! roasties, as we call them in great britain, are traditionally served with sunday lunch - but, don't wait until sunday to serve them, they are great with just about everything! i remember going to our local pub in north yorkshire, and if the visiting darts team was playing, half way through the evening the landlady would come around with trays upon trays of crunchy, piping hot roasties - sprinkled with salt--unbelievably sublime! the secret to making perfect roast potatoes is simple; par-boil them first and give them a really good shake in the pan before placing them into sizzling hot fat and turning them over. serve them piping hot and crisp from the oven with lashings of gravy and sea salt, and they are a meal in themselves. ingredient quantities are not by weight, but by potatoes per head - and a very generous amount as well! please adjust the quantities to your suit own requirements.",
     "totalTime": "PT1H45M",
     "recipeIngredient": [
@@ -11463,7 +11463,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Praline Apple Bread",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "topped with gooey caramel and crunchy pecans, this apple bread is a hit with kids and adults alike!",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -11902,7 +11902,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roasted Asparagus Pasta With Garlic Butter",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i was sent a link to a wonderful sounding asparagus pasta recipe with balsamic butter by a wonderful friend of mine.\r\nit sounded so good, but had a few ingredients that i didnt have on hand, so i created my own version of it. here it is: an italian dish with a small asian twist to it. i hope youll enjoy it! :)",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -11990,7 +11990,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roasted Chicken With Spices",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is a tyler florence recipe. it's very easy to make. roasted chicken with a twist! give it a try when you're looking for a yummy change of pace. enjoy!",
     "totalTime": "PT1H30M",
     "recipeIngredient": [
@@ -12469,7 +12469,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Sauteed Chicken With Spicy Peach Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "just found this recipe by challenge butter and it sounds delish!",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -13526,7 +13526,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Succulent Baked Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "got this from my cousin-in-law doreen. the chicken cooks for 2 1/2 hours and comes out so moist.  there will be plenty of juice from the meat to make a gravy.  serve with mashed potatoes and your favorite veggie.  great weekend meal for those upcoming cold evenings. cooking time includes the 20 minute sitting time in step 11.",
     "totalTime": "PT3H10M",
     "recipeIngredient": [
@@ -13645,7 +13645,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Sunny S Lemon Curry Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is the best baked chicken you have ever had. once you taste this, you will be hooked. the secret ingredient is the cornflake crumbs. a recipe from a friend's mom. i'm still saying thank you 15 years later.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -13978,7 +13978,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Taco Mac Cheese",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i came up with this recipe on a night when i was super exhausted after work but wanted to at least attempt to cook something for dinner. this is quick, easy, and delish!",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -15639,7 +15639,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Amazing Sweet Italian Sausage Pasta Soup",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is so easy, and is 'hands-down', our favorite soup recipe in this house!! you won't be disappointed!",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -15734,7 +15734,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Another Baked Ziti",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i am not very tuned into ricotta cheese, so was happy to find this recipe at italian food forever. my family keeps begging me to make it every week.",
     "totalTime": "PT1H42M",
     "recipeIngredient": [
@@ -16381,7 +16381,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Bacon Shrimp And Corn Chowder",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "as with most chowders, this is much better served the second day.  let it sit in the fridge overnight, reheat and serve!  sometimes i will add some crushed red pepper when i saute the onion.  the maine shrimp can be substituted with other small shrimp.",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -16600,7 +16600,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Pepperoni Pizza Dip",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "purchase a whole chub of pepperoni then chop, really you may use any amount you desired, i use recipe#65641 for the pizza sauce but any favorite will do :)",
     "totalTime": "PT17M",
     "recipeIngredient": [
@@ -16674,7 +16674,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Balsamic Braised Pot Roast",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "adapted from",
     "totalTime": "PT3H",
     "recipeIngredient": [
@@ -17012,7 +17012,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Battered Chicken Tapas With Honey And Mustard Pollo Rebozado",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "a real favorite here in spain. looks great, smells great and most of all tastes great! the chicken can be prepared ahead of time and then crisped up in the oven before adding the sauce. the honey mustard sauce should be made an hour or so in advance to blend flavors. this recipe was adapted from \"the tapas cookbook\".",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -17145,7 +17145,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Best Ever Pie Crust",
+    "name": "Pie Crust",
     "recipeCategory": "Dessert",
     "description": "a great and simple pie crust recipe",
     "totalTime": "PT15M",
@@ -17617,7 +17617,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Blt With Avocado Spread",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "from self magazine.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -17741,7 +17741,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Boursin Stuffed Chicken Breasts With Raspberry Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "doesn't this sound romantic? i had this elegant sounding recipe in my collection for years, clipped from a magazine. this is the perfect thing for an elegant, romantic dinner especially for valentine's day. note: if you can't find boursin cheese in the store, you can use a homemade version - there are several recipes for this cheese right here on recipezaar or alouette garlic & herb cheese also works.  i prefer baby spinach leaves, in which case you will need several per piece of chicken, enough to cover the top of each breast. i used wishbone red wine & olive oil vinaigrette in this.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -18174,7 +18174,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cajun Shrimp Stir Fry",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i got this out of a magazine called \"clean eating\" this is low in fat and sugar. both dh and i found it to be outstanding. it may say fry but there is nothing fatty about it. it would also be great on the weight watchers program.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -19723,7 +19723,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Delicious Roast Turkey",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "we usually buy extra turkeys around thanksgiving when they are on sale and i always experiment with different spices and i tried this and it was delicious. it also makes its own gravy.",
     "totalTime": "PT3H45M",
     "recipeIngredient": [
@@ -19833,7 +19833,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Dirty Rice No Livers",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a family pleasing dirty rice. no livers....'nuff said...",
     "totalTime": "PT2H10M",
     "recipeIngredient": [
@@ -19890,7 +19890,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Dragon S Breath Sticky Ribs",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "the name comes for the use of 2 full heads of the delicious and sweet roasted garlic.  a delicious recipe that is sure to get rave reviews from your family or guests.  make sure that that you have plenty of napkins on hand.  dig in and enjoy!  please note:  if you want sauce for dipping you  might want to make additional.",
     "totalTime": "PT1H50M",
     "recipeIngredient": [
@@ -20114,7 +20114,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Easy And Delicious Baked Parmesan Onion Dip",
+    "name": "Baked Parmesan Onion Dip",
     "recipeCategory": "Appetizer & Salad",
     "description": "if you are an onion-lover you will love this, it takes very little time to make and may be made in advance covered and refrigerated until ready to bake, use mayonnaise only for this not salad dressing --- serve this dip with ritz butter crackers --- servings are only estimated.",
     "totalTime": "PT55M",
@@ -21012,7 +21012,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Greek Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "ohhhh, so good, especially serves with greek lemon potatoes from zaar chefs. yummy!\r\nfrom everyday foods magazine. \r\nnote: this is very lemony, adjust lemon ingredients to your preference.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -21136,7 +21136,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Greek Lemon Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i adapted this recipe from jeff smith, frugal gourmet.  it is easy to prepare and relatively simple to cook.  just be careful for flare ups on the grill.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -21746,7 +21746,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Honey Cinnamon Spread For Bagels",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this comes from a pampered chef recipe meant to be served on bagels.",
     "totalTime": "PT2M",
     "recipeIngredient": [
@@ -21789,7 +21789,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Honey Oat And Wheat Rolls",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a nice change from your regular wheat bread. made using a bread machine. preparation time does not include time to rise.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -21875,7 +21875,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Honey Roasted Carrots",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "this is best with really young fresh small carrots. small young carrots do not need peeling, just a good scrub. for a nice presentation trim the top so that a small bit of the green remains.",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -21925,7 +21925,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Honey Teriyaki Salmon",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "if you like salmon, you'll love this recipe! this is another recipe my husband developed based on one of our restaurant favorites. this is now about the only way we eat salmon. even our 1 and 4 year olds eat this.",
     "totalTime": "PT8H12M",
     "recipeIngredient": [
@@ -21988,7 +21988,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Honey Mustard Chicken Stir Fry",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i was unsure about this one but it's great! it's a little spicy, but that can be adjusted easily.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -22307,7 +22307,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Kip Met Kerriesaus Baked Chicken With Curry Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is a different and delicious way to serve baked or rotisserie chicken. it's a dutch recipe.  we never have left overs. the prep and cook time does not include the time to bake a chicken. i usually start with a fresh hot rotisserie chicken from the grocery store.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -22624,7 +22624,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Maureen S Chicken Schnitzel Lite",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "easier and a lighter version of traditional schnitzel. credited to maureen clancy in cooking light magazine.",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -23227,7 +23227,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Nova Scotia Maple Chicken",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "caution: recipe calls for almonds; persons with nuts intolerance should exclude this ingredient entirely from the recipe. chicken is tender; sauce can be poured over sweet potato, rice, or orzo accompaniment. serve with salad and/or other vegetables. sauce is excellent over sweet potatoe or carrots; however this creates a very high sugar content; not suitable for diabetic diets. persons with diabetes should not pour this sauce over their vegetables.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -23587,7 +23587,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Oven Roasted Cauliflower With Garlic Olive Oil And Lemon",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "from cooking light board.  would use less olive oil...",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -23783,7 +23783,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Pan Roasted Cauliflower With Pine Nuts Garlic And Rosemary",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "my bf found this recipe in a recent issue of cottage living, courtesy of sara foster.  we both love cauliflower, and this recipe gives it a nice crunch and nutty taste.  another recipe to leave in the oven while you are taking care of the rest of dinner.  we cut down the 1/4 cup olive oil to about a tablespoon.  leave it as is if you are not concerned about fat intake.",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -24270,7 +24270,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Pierogi Pasta Shells",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "if you like pierogies, you'll like this version.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -24475,7 +24475,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Potato Sausage Christmas Confetti Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "my family's christmas eve food tradition is potato soup for supper.  this is my very favorite.  made \"christmas soup\" by parsley and red pepper; made confetti soup by parsley and minced red, orange, yellow and green peppers; i'll try purple too the next time i make it.",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -24615,7 +24615,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Quinoa With Latin Flavors",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a fabulous quinoa pilaf that pairs well with grilled or broiled meats, or could even be a main vegetarian course. i like to have leftovers for breakfast with a fried egg on top. from the eating well magazine. super healthy and yummy. if you use vegetable broth instead of chicken broth it is a vegan recipe.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -24736,7 +24736,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Rancho Sausage Supper",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "easy, quick and filling.  great on a cold fall or winter night.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -25016,7 +25016,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roast Potatoes With Olives",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "a roasted portugese side that is delish.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -25171,7 +25171,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roasted Vegetables Roma",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "cooking time may vary depending on your oven. i can make a meal off these vegetables.",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -25362,7 +25362,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Seafood Lasagna Rollups",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "very attractive dish, serve with a tossed green salad and fresh crisp rolls. great for a bridge luncheon if you microwave them they are ready in under 10 minutes",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -25597,7 +25597,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Shrimp And Feta Greek Style Pizza",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "makes a very gourmet type pizza. you can't get this one at pizza hut!",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -25919,7 +25919,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Southern Macaroni Pie Ii",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this recipe was found in a \"cooking with paula deen\" magazine. in sounded so simular to my recipe #107514 that i thought i would whip it up to compare. this macaroni pie is just as good if not a wee bit better. it certainly needs to be compared side by side to be sure....but then, what would i do with all that pie? this recipe was titled in the magazine \"libba's macaroni & cheese\"",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -26387,7 +26387,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Stuffed Chicken Thighs",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "chicken thighs stuffed with sautéed mushrooms, wilted spinach, and shredded monterey jack cheese. this dish is light-tasting and a little sweet.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -26579,7 +26579,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Szechuan Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "why go out for chinese food when it is this easy? serve with rice or asian noodles. to slice the chicken thin, freeze for 20 minutes or so first or if you are using chicken from the freezer, slice before it is completely thawed.  it isn't as hot as you would expect from \"szechuan\"--if you want it spicy hot--add more crushed red chilies.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -26676,7 +26676,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Tarragon Garlic Butter To Dip Your Crab Leg Meat",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "i would eat steamed alaskan king crab legs 24/7 if i could afford it! but on the rare occasions (that are getting few and far between) that i do treat myself, this is the butter",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -26785,7 +26785,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "The Nation S Favourite Podgy Porridge",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this recipe is one that i have been making for ages at home, however, this particular recipe, is the one that was published in the nation's favourite food cookbook, a poll run by the bbc to \"capture\" the nation's best loved and top 100 recipes - the nation being the great britain.  jo pratt is the author of this recipe, but, i have tweaked a bit here and there, to my own personal tastes! enjoy a bowl of podgy porridge on a cold and wet winter's morning! i have added a non-podgy version at the end of the recipe as well!",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -26997,7 +26997,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "To Die For Zucchini And Tomatoes",
+    "name": "Zucchini And Tomatoes",
     "recipeCategory": "Main Course",
     "description": "ok this is sooooooooo good. i could eat this 3 times a night and not get sick of it. zesty and spicy and very tasty.the tomatoes really add to the flavor",
     "totalTime": "PT30M",
@@ -27266,7 +27266,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ultimate No Fail Lasagna",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i love this lasagna recipe because it never fails me, even though i'm a rookie cook!  this is so easy to make and it makes tons so i always freeze half and eat it for a month!  if you want to make a small pan, divide the recipe in half and it'll still turn out great!\r\n\r\n*edited to add: this can be made without the eggs!  the cheese mixture will still be delicious without the egg.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -27369,7 +27369,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Unknownchef86 S Chipotle Pulled Pork Chicken Or Beef",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is so simple, it's almost a non-recipe, but so delicious i had to submit it. i came up with it one day when i wanted to do something different with a pork tenderloin. it was such a hit, it became a family favorite, replacing the pallid-by-comparison taco meat. it works just as well with boneless chicken or beef. it's very popular at potlucks and get-togethers, also. pork weight is an estimate...i just use a good-sized roast. this is also a good recipe for oamc, as you can cook and shred, then package the meat for later use.",
     "totalTime": "PT6H5M",
     "recipeIngredient": [
@@ -27844,7 +27844,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "White Sauce Chicken Lasagna",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a different but tasty spin on lasagne. this recipe is delicious. it's easy to prepare, with the convenience of using ingredients readily available in your pantry. i found the recipe on the internet originally, and have made several changes to suit our tastes. hope you enjoy it.",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -27946,7 +27946,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ww Parmesan Chicken With Mushroom Wine Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is an old recipe from back when you counted portions and not points. i love this dish. this recipe has 8 smart points (7 points plus) per 4oz serving. posting it here for save keeping. please try it.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -28102,7 +28102,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Apricot Ginger Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "healthy tasty chicken from my slimmers book.",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -28244,7 +28244,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Chicken Oregano",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "simple, quick week night supper. (i sometimes defrost 2 extra breast halves, leave them uncoated and cook with the coated chicken, for use in salads or sandwiches, or handy in the freezer)",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -28311,7 +28311,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Chicken With Garlic And Rosemary",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "a simple chicken dish ideal for a family supper,serve it with a simple green salad and steamed baby potatoes",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -28451,7 +28451,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Salmon With Tarragon And Bacon",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "one of my favorite things to eat is a beautiful piece of salmon, simply prepared allowing the fish to shine on it's own. this is just such a recipe.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -28891,7 +28891,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Barbecued Spiced Fish",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "this is out of \"the backyard barbecue cookbook\". i have it marked as being excellent! please note: \"not for sensitive tongues\" hope you enjoy!",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -29075,7 +29075,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Bird S Creamy Egg Noodle And Beef Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "creamy and flavorful.",
     "totalTime": "PT1H15M",
     "recipeIngredient": [
@@ -29967,7 +29967,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheesy Potato Soup Crock Pot",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "this soup is what i make for my family every christmas eve. i love using the crock pot, especially during the holidays. to cut down on time, i always use frozen hash browns- (diced, not shredded) for the 6 cups of potatoes.  i've also added cheddar cheese along with the velveeta cheese.this soup is delicious served in bread bowls.",
     "totalTime": "PT7H15M",
     "recipeIngredient": [
@@ -30032,7 +30032,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Fried Cube Steaks",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "down-home cookin', t'aint nothing quite like it! for breakfast, serve this with some taters. if you prefer it on the dinner menu, i suggest fresh steamed green beans and mashed taters.",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -30153,7 +30153,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken With Jalapeno Popper Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "easy chicken recipe with a to-die-for sauce. you'll want to serve this with tortilla chips to eat up the extra sauce!",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -30258,7 +30258,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken With Mushrooms Lemon Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this recipe will rival any fine italian restaurants entree. it is an impressive fool proof dinner to serve family or your guess. i used to \"wing it\" and then came across this recipe. you will love it. \r\n11/08 suggestions: the sauce will thicken as it cools a bit. it should not be thick anyway. \r\n\r\nfrom: the big book of casseroles",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -30971,7 +30971,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Crispy Ranch Unfried Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "very easy and juicy. from 2006 kraft food and family winter edition.",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -31029,7 +31029,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Crock Pot Cajun Style Buffalo Wings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "these are tasty and fast. i love my crock pot.",
     "totalTime": "PT5H15M",
     "recipeIngredient": [
@@ -31367,7 +31367,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Dorito Chicken Taco Fingers",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "my husbands absolute favorite!\r\nhe asks for them often!\r\ni have made this recipe hundreds of times!!\r\nyou can use this as an appetizer or a main dish.",
     "totalTime": "PT17M",
     "recipeIngredient": [
@@ -32385,7 +32385,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Garlic Lemon Rotisserie Chicken With Moroccan Spices",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this recipe was found on a canadian website.",
     "totalTime": "PT2H10M",
     "recipeIngredient": [
@@ -32730,7 +32730,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Greek Pita Sandwich With Italian Dressing",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "quick, easy, delicious and greek pita sandwich",
     "totalTime": "PT10M",
     "recipeIngredient": [
@@ -33305,7 +33305,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Kumquat S Panzanella Bread And Tomato Salad",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "my version.  there are others posted.  i find this salad incredibly tasty.  if you'd like to try it there is one very important caveat - do not stint on the quality of your ingredients.  (garbage in garbage out.)  some of the ingredients are available year round, but only prepare this if you know you can get tomatoes at their very best.  most panzanella recipes call for some oil but i prefer to omit it.  serve as side dish for four or main meal for two.  this is a classic italian recipe.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -33716,7 +33716,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Moroccan Chicken Made On Stove Top Crock Pot Or Tagine",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "shopping at ikea i bought a tangine because it looked so cool!  don't worry, if you don't have one - you can just make this on the stove top.  if you want it to be ready when you come home from work, just toss it into a crockpot (slow cooker)\r\n\r\np.s.  you can also make this with lamb or pork if you want to!",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -34686,7 +34686,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Perfect Easy Microwave Rice",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i got this recipe with the cookbook that came with my first microwave and i've been using it ever since! the rice comes out perfect every time. no muss, no fuss and can be served in the casserole dish you cooked it in. you can also use this method for brown rice but increase your cooking time a little.",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -34755,7 +34755,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Pizza Style Meatloaf",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i got this recipe out of homebasic book. it's a good carb recipe. made it tonight for supper and hubby said to make it anytime. i used regular sauce as that's all i had on hand.",
     "totalTime": "PT1H15M",
     "recipeIngredient": [
@@ -35088,7 +35088,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Potato Soup With Hamburger",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "hearty tasting soup for all to enjoy.",
     "totalTime": "PT3H15M",
     "recipeIngredient": [
@@ -35276,7 +35276,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Quick And Easy Feta Spread",
+    "name": "Feta Spread",
     "recipeCategory": "Appetizer & Salad",
     "description": "i found this on a fresh oregano package. says to serve it with your favorite crackers, crusty bread or pita toasts. i think it would be great with fresh veggies as well.",
     "totalTime": "PT18M",
@@ -35336,7 +35336,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Quick And Easy Tomato Onion And Cucumber Salad",
+    "name": "Tomato Onion And Cucumber Salad",
     "recipeCategory": "Appetizer & Salad",
     "description": "this salad is great to accompany a barbecue meal. it's light, refreshing, and very easy to make. easily doubled or tripled if making for a large crowd.",
     "totalTime": "PT10M",
@@ -35453,7 +35453,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Rachael Ray S Buffalo Chicken Meatballs",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i saw this on the tv show and knew that i wanted to try these for a football party.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -35612,7 +35612,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roasted Cauliflower With Onions And Fennel",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "from the march 2007 gourmet magazine, to which i have subscribed for more than 35 years.  this combination is outstanding and the prebrowning of each vegetable is key.  (yes, it's more work, but it is worth it!)  it is delicous hot and even better at room temperature.",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -35771,7 +35771,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Romano S Macaroni Grill Chicken Marsala",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "my favorite meal is chicken marsala from the macaroni grill.  this is a copycat recipe that i received from recipelink and it is truly wonderful and surprisingly easy too.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -36812,7 +36812,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Tori No Kara Age Deep Fried Chicken Nuggets",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "here is a dish i am famous for both with my friends in japan and canada. it was given to me by an aunt in japan and i wanted to share her recipe with the rest of the world..lol.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -36991,7 +36991,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Turkey Stuffing Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "a delicious, filling casserole that takes only a few minutes to put together. almost as tasty as thanksgiving dinner, with a lot less trouble!",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -37425,7 +37425,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Voodoo Chicken Penne",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "from the voodoo restaurant, as published in the toronto star a long time ago. not for the calorie conscious but delicious ... it's nice to indulge once in a while. prep and cooking times are estimate.",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -37755,7 +37755,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ww Grilled Salmon With Teriyaki Sauce 4 Points",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "this is out of a 2000 cookbook called \"simple & classic homecooking\". it is noted in the cookbook that this recipe received their highest rating. you can serve it on a bed of couscous alongside mixed salad greens and some fresh fruit for dessert.dh rated it pretty darn good.",
     "totalTime": "PT55M",
     "recipeIngredient": [
@@ -38167,7 +38167,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "African Style Braised Chicken In Peanut Sauce Crock Pot",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "from \"delicious and dependable slow cooker recipes\" by judith finlayson.  serve with white rice.  recipe calls for hot peppers and peanuts. i made it with 1 tsp. cayenne pepper instead of red chili pepper. by the way, i like the way it tastes cold the next day too!",
     "totalTime": "PT3H20M",
     "recipeIngredient": [
@@ -38951,7 +38951,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Black Bean Taco Salad With Lime Vinaigrette",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this recipe came from cooking light magazine. even though it has a lot of ingredients, it's still quick and easy to pull together for a weeknight meal.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -39025,7 +39025,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Blt P Bacon Leek Tomato And Potato Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "a satisfying soup version of a blt for those days when you need a warming up-with a bacon pick me up!!  (when don't we need those, eh?).  another rr treat!!",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -39182,7 +39182,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Braised Chicken With Lemon And Honey",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "another great recipe from abc.net's website and chef bill granger. this chicken recipe will also be included in the zaar world tour 2005 swap, australia.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -40348,7 +40348,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Crock Pot Cheese Tortellini And Meatballs With Vodka Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i'm always looking for easy meals for those busy weekdays. my husband and i both work and have two children that are very active in extracurricular school activities. i like meals that i can just throw in the crock pot before i leave for work and have dinner ready when we get home. this was something i put together and somehow it keeps getting requested.",
     "totalTime": "PT6H10M",
     "recipeIngredient": [
@@ -40704,7 +40704,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Easy Crock Pot Wingers",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "nan",
     "totalTime": "PT28M",
     "recipeIngredient": [
@@ -40819,7 +40819,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Egg Noodles With Brown Butter And Feta",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is so quick and easy!   from gourmet magazine. posted for zwt 2006",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -41435,7 +41435,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Homemade Condensed Cream Of Chicken Or Mushroom Or Celery Soup",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Soup & Stew",
     "description": "you have these ingredients already.  so save yourself a trip to the store, some money, and some sodium.  here's a flavorful condensed cream of chicken soup base recipe for use in dishes that call for canned creamed soups.  use instead of condensed canned cream soups in recipes. just add the ingredient that forms the basis of the soup. chop mushrooms, sauté in a bit of olive oil and add for cream of mushroom soup. add chicken for cream of chicken soup. chop & sauté celery for, you guessed it, cream of celery.  (as found at tammysrecipes.com/homemade_cream_chicken_soup )\r\nyields 3 cups -- about 2 (10.5 oz) cans of condensed cream of 'whatever'.",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -41603,7 +41603,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Leftover Turkey Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "great for after the holidays. a good way to use up some of that turkey and dressing that always seems to be around.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -41743,7 +41743,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Lemon Garlic Parmesan Orzo",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "the garlic and lemon juice amount may be adjusted to taste, if you like some heat add in crushed red chili flakes and saute with the garlic :)",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -41817,7 +41817,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Lemon Pepper Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this chicken has fantastic flavour - succulent and juicy with just the right 'bite'. marinating time is not included. do try this on the bbq when you fire up!",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -42171,7 +42171,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Maple Glazed Roasted Carrots",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "easy, subtly sweet roasted carrots. very nice side dish.",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -42568,7 +42568,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Mexican Chicken Paula And Jamie Deen",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "wow i couldn't believe when i went looking for this on zaar it wasn't here! this is delicious.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -42768,7 +42768,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Mom S Apple Tart",
+    "name": "S Apple Tart",
     "recipeCategory": "Dessert",
     "description": "this is my mom's old standby recipe. it is easy and looks good on the table, the sweetness of the apples makes it a family favourite.",
     "totalTime": "PT1H15M",
@@ -42845,7 +42845,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Mom S English Muffin Bread",
+    "name": "S English Muffin Bread",
     "recipeCategory": "Breakfast",
     "description": "this is a quick yeast bread that needs no kneading.",
     "totalTime": "PT40M",
@@ -43194,7 +43194,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "One Pot Spaghetti With Meat Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "quick and easy.  green pepper, onion and red pepper flakes are optional.  i usually skip the bell pepper and onion and add a 7 oz can of drained mushroom pieces instead.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -43394,7 +43394,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Overnight Cinnamon Coffeecake",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is an easy breakfast when you have company or if you just will be short on time in the morning.",
     "totalTime": "PT8H30M",
     "recipeIngredient": [
@@ -43878,7 +43878,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roasted Asparagus With Lemon",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "nan",
     "totalTime": "PT18M",
     "recipeIngredient": [
@@ -43944,7 +43944,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Roasted Potatoes",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "nan",
     "totalTime": "PT1H30M",
     "recipeIngredient": [
@@ -44254,7 +44254,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Seafood Mix Over Angel Hair Pasta",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is rich and garlicy!",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -44371,7 +44371,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Smothered Chicken With Gravy And Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "absolutely delicious!  your family will kiss the cook for this dish!  this dish makes very good gravy.  easy and simple!  just add a vegetable and you have your entire meal.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -44537,7 +44537,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Spaghetti Tuna And Capers",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a very simple recipe that will have you asking for more. very healthy too. there are a few variations. this recipe is used in the regions of naples and molise in italy.",
     "totalTime": "PT16M",
     "recipeIngredient": [
@@ -44704,7 +44704,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Special Roasted Potatoes",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "elegant and delicious. try this - you'll love it!",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -45423,7 +45423,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Sun Dried Tomatoes And Asiago Cheese Bread",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a savory recipe for the bread machine.",
     "totalTime": "PT3H10M",
     "recipeIngredient": [
@@ -45681,7 +45681,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Tortilla Chicken Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "easy tasty casserole just right for lunch or dinner. serve with a green salad and perhaps some refried beans.  if you wish you may skip the center layer of tortillas and only use 6 tortillas (personally i like the center layer). if you skip the center layer still put in half of the cheese after you have poured in half of the chicken mixture.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -45935,7 +45935,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "White Bean And Pasta Soup With Sun Dried Tomatoes",
-    "recipeCategory": "Soup & Stew",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i have been making this recipe for so many years i cannot remember where it came from, but it is my favorite soup in the winter. it is delicious and my entire family loves it.",
     "totalTime": "PT1H55M",
     "recipeIngredient": [
@@ -46135,7 +46135,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Wisconsin Cheese Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "a tasty soup anytime of the year.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -46534,7 +46534,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "All Purpose Crock Pot Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i discovered this one a few weeks ago. i started out trying to make chicken and  rice and ended up with this.\r\n\r\nit is very tender and very good.  an excellent  make-ahead dish for summer.  all the work is done before the crock pot is even  warm.\r\n\r\nthis is excellent for fajitas, pasta salads,  chicken salad, soup, added to beans and rice, just laying on bread for chicken  sandwiches, or just eating cold.",
     "totalTime": "PT9H",
     "recipeIngredient": [
@@ -47338,7 +47338,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Asparagus Chicken Stir Fry",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "nan",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -47419,7 +47419,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Awesome Golden Oven Fried Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "you will swear that this is fried chicken. it is the best oven fried i have ever tasted.",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -47493,7 +47493,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baby Food Pineapple Coconut Carrot Cake",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this incredibly moist carrot cake is brimming with yummies, like pineapple, coconut and walnuts! and the best thing about it is...no grating carrots...that's where the baby food thing comes into play!!! try it, you'll love it and never grate carrots again..at least not for cake :)",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -48280,7 +48280,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Bobby Flay S Roasted Beets For Recipes",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "i found this on food network within a bobby flay roasted beet salad recipe.\r\ni wanted the recipe for roasted beets and this one was the best i've seen as far as simple and no mess!  you wrap the beets in foil with a little oil and bake!",
     "totalTime": "PT52M",
     "recipeIngredient": [
@@ -48695,7 +48695,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheesy Bacon And Garlic Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this came about when i combined my cravings.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -48762,7 +48762,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheesy Brat Stew For The Slow Cooker",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "from all recipes.",
     "totalTime": "PT3H5M",
     "recipeIngredient": [
@@ -48805,7 +48805,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheesy Ham Broccoli Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a dish often requested by my husband. the easy recipe came from a miracle whip advertisement.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -48868,7 +48868,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheesy Beefy Noodle Casserole W Pepperoni",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this was a pure scavenger hunt through the freezer, fridge and pantry!  it came out really good! perfect for a quick and easy weeknight supper!",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -49025,7 +49025,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Barley Chili",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i found this great recipe on the back of my box of quaker quick barley.  it goes together quickly and has a wonderful taste.  it's healthy too!",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -49112,7 +49112,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Breasts In Caper Cream Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "some times i add white wine to the sauce.\r\nother times i just drink the wine.",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -49495,7 +49495,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cinnamon Maple Granola",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "from taste of home.  i would at least double this recipe!! ;)",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -49900,7 +49900,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Crispy Smashed Roasted Potatoes",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "oh my! moist, cooked tender potatoes on the inside with sizzling crisp edges on the outside. easy, easy...great for entertaining or just a weeknight meal! another great one from fine cooking magazine.",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -50511,7 +50511,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Easy Cheesy Hamburger Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a simple, easy, inexpensive soup that kids and adults love!  i usually add about 1 cup frozen corn (thawed), and 1 can of green beans. this really\r\nadds to the veggie content, and overall heartiness of the soup. this is my husband's\r\nfavorite!!!!!",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -50749,7 +50749,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "French Bread With Roasted Garlic",
-    "recipeCategory": "Baking & Bread",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "this is made in the bread machine and baked in the oven. follow your bread machine directions.  if you don't have a french bread setting just remove dough from the machine before the final rising stage and shape as directed.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -51480,7 +51480,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Basil And Garlic Stuffed Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "these delicious chicken breasts are stuffed with basil, garlic and parmesan cheese. then they're grilled to perfection while basting with a lemon butter sauce. one of my favorite grilled chicken recipes. from better homes and gardens.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -51567,7 +51567,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Garlic Shrimp",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "if you like garlic and shrimp, then i think you will enjoy this. we had this at a party, and couldn't get enough of it. i told a friend about how good it was, and she offered me this recipe. i make this often, we still can't get enough of it.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -51766,7 +51766,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Hamburger Stew",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "i love this stew because it is so easy to throw together,and it goes great with a hot pan of cornbread. i suggest sweet cornbread (recipe #83625).\r\nthis recipe was my great grandma's and my grandma taught it to me. it was hard for me to put this in recipe format because it is all in my head. you can adjust some of the ingredients to suit your family.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -51994,7 +51994,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Hidden Surprise Lemony Prawn Pizza Rsc",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "“ready, set, cook!  hidden valley contest entry”  the hidden  surprise is in the pizza crust…one bite and your taste buds will go “wow”…hidden valley and lemon pair wonderfully together to bring my prawn pizza to life!!",
     "totalTime": "PT48M",
     "recipeIngredient": [
@@ -52203,7 +52203,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Honey Dijon Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "try it, you're going to love it!  it just doesn't get any easier than this.  five minutes of prep work, 30 minutes of cooking time, and you have a fantastic meal.  the original recipe states that it makes enough sauce for 4 chicken breasts, but i've found that it can easily be stretched to serve with at least 6 decent-size chicken breasts.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -52532,7 +52532,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Indian Spiced Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "serve this with lemon wedges for guests to squeeze onto their chicken.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -53914,7 +53914,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Linguine With White Clam Sauce",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this tastes like linguine i've eaten in italian restaurants. it is quick and easy, and has become a favorite in our house.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -55322,7 +55322,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Parmesan Chicken Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "came up with this easy recipe when looking for something just a little bit different.  smells divine while cooking, tasty and comes together quickly. although i used macaroni noodles, any kind of pasta you like can be used. enjoy!  *tip - to easily cut up boneless chicken, partially freeze it first and use a sharp smooth (non-serrated) knife.*",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -55510,7 +55510,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Peruvian Spicy Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is a recipe from rachel ray - it sounds so yummy and i didn't want to lose it! i am in an area where many varieties of chili peppers are not available, so i will be limited to jalapeno peppers.",
     "totalTime": "PT8H25M",
     "recipeIngredient": [
@@ -55744,7 +55744,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Pizza Skillet",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a quick and easy supper for the working moms and dads out there. this is one the kids will like.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -56116,7 +56116,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Pumpkin Black Bean Turkey Chili",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "haven't tried this one yet; posting for future use. looks interesting to me.",
     "totalTime": "PT1H22M",
     "recipeIngredient": [
@@ -56408,7 +56408,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Quinoa Stuffed Bell Peppers",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a versatile dish that can be prepared as stuffed peppers, as stated below.  i'm the sort that doesn't finish much of the pepper shell, so to make it easier to eat, i like to dice the peppers and prepare this as a casserole.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -56704,7 +56704,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Rick S Vegetable Beef Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "this is my version of a basic beef and vegetable soup. i've also done this in a crockpot starting it before going to work and ready to eat when i get home.",
     "totalTime": "PT2H15M",
     "recipeIngredient": [
@@ -57351,7 +57351,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Simple Marinated Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "the name says it all! the nutritional information will not be correct, as the marinade is discarded.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -57402,7 +57402,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Sindhi Biryani",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "rather than the regular biryani, sindhi biryani is more spicy and tasty. don't know whether it originates from sindh or not. \r\n\r\njust make sure about one thing if you don't want your rice overly cooked, keep on checking them while you r boiling them and drain them as soon as you turn off the heat. do not leave them in the water once you turn off the heat. \r\n\r\nyou can also add some vinegar while boiling the rice so they won't stick together.  \r\n\r\nnote, you can also substitute mutton with chicken. potatoes are not necessary if you use chicken though.\r\n\r\np.s for desi people the rice measurement is 5 tea cups and not mugs.",
     "totalTime": "PT1H30M",
     "recipeIngredient": [
@@ -57883,7 +57883,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Southwest Chicken Rice Casserole",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a hearty comfort-food dinner with a little zing.  if you like more heat in yours, use pepper-jack cheese instead of regular monterey jack cheese.  cuts into nice square servings.  serve with a green salad and dinner's complete!",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -58344,7 +58344,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Stuffed Pizza Bites",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "these are great finger foods. we always make them for super bowl parties. kids enjoy helping make these and eating them as well. you can add green peppers, onions or mushrooms as well!",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -58436,7 +58436,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Sukiyaki Big Bowls",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "nice and real easy traditional japanese style food! these bowls can be of the ziplock type or other freezer bowls and can be used as a meal for new neighbors, a sick friend or just for you. i found this on landolakes.com. update 01/07/2008 i remade this and used peapods with less bamboo shoots, sliced red pepper strips with less water chestnuts, increased the garlic to 1 tsp, increased the green onions to 1/3-1/2 cup, and some crushed red pepper flakes, for that extra zing! just a thought!",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -58683,7 +58683,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Tater Dipped Oven Fried Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "crispy oven fried chicken without the mess!  this is a perfect week night meal because not only is it easy to prepare, it tastes great too.  whip up some mashed potatoes and you've got a real comfort meal!",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -59248,7 +59248,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Uncle Bill S Deep Fried Onion Rings In Batter And Panko Crumbs",
+    "name": "Bill S Deep Fried Onion Rings In Batter And Panko Crumbs",
     "recipeCategory": "Appetizer & Salad",
     "description": "i have tried so many different recipes for onion rings and many were very good.  however, i was looking for a real tasty, crispier onion ring and finally found this recipe posted by blogchef.\r\ni made some modifications and this is my crispy, crunchy recipe.",
     "totalTime": "PT30M",
@@ -60485,7 +60485,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Arabic Chicken With Lemon Thyme",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "our favorite recipe from our favorite syrian-lebanese cookbook, \"foods from biblical lands.\"the actual name is djaj ma' limoon wa za' tar, but the kids call it \"arabic chicken\" and ask for it frequently. save the leftover cooking juices to put over rice, potatoes, etc. (actually, we use the marinade on potatoes, zukes, green beans..whatever we have and can throw in the oven). it's one of my standard potluck dishes and always gets raves (i use smaller chunks of chicken when cooking and then layer it over a 9x13 pan of rice pilaf for an easy self-serve dish). also works to use packages of boneless, skinless chicken breasts (be careful not to overcook!). i've even been pressed for time and not broiled it and liked it just as much, or used it as marinade for grilled chicken...hard to mess this one up!",
     "totalTime": "PT2H25M",
     "recipeIngredient": [
@@ -60721,7 +60721,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Helen S Sloppy Joes",
+    "name": "Aunt Helen S Sloppy Joes",
     "recipeCategory": "Main Course - Grills & Meats",
     "description": "aka un-tidy josephs. cooks a longer time; makes the sauce de-licious! this will freeze!\r\nupdate: i've reduced the amount  of worcestershire sauce due to reviewers' responses. add more *originally 1/8 cup* if you like. :)",
     "totalTime": "PT16M",
@@ -61115,7 +61115,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Badazz Barbecue Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "give the other barbecue sauce(s) in your fridge to your neighbours - you won't need or want them any more.",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -61173,7 +61173,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Chicken Breasts With Horseradish Cream Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is a simple dish with a subtle horseradish cream sauce.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -61723,7 +61723,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Belinda S Version Of Carino S Chicken Scaloppini",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i took a copycat macaroni grill recipe and adapted it to have \"carino's ingredients\" (except for mushrooms, which i don't care for, but you could add them with the onions, if desired). my friends and i, who are all carino's chicken scallopini freaks loved this! hope you do, too!",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -61848,7 +61848,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "Recipe",
-    "name": "Best Ever Chocolate Chip Cookies",
+    "name": "Chocolate Chip Cookies",
     "recipeCategory": "Dessert",
     "description": "these cookies are wonderful because they don't flatten out and they stay soft!!",
     "totalTime": "PT1H15M",
@@ -61969,7 +61969,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Blueberry White Chocolate Scones",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "everyone asks for this recipe. the white chocolate adds a surprise sweetness to these blueberry scones. i have also substituted cranberries for the blueberries on occasion and they are great as well. depending on your oven, you may want to broil for the last minute to ensure that the tops are golden brown.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -62241,7 +62241,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Broccoli Noodle Parmesan Bake",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "an easy, throw-together casserole. add some cooked chicken, turkey or ham if you want to make a complete meal.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -62465,7 +62465,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chard And White Bean Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a steamy bowl of this on a cold, rainy day is so comforting. i serve this with crusty bread and a simple salad.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -62571,7 +62571,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheesy Golden Rice",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this has always been a big hit with the kids in my family, when i was a kid myself, and as a mother now.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -62619,7 +62619,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken And Teriyaki Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "posted for asia - zwt 2006.  recipe came from a 'favorite restaurant dishes' chinese cooking class i took in phoenix many many years ago.  it includes making your own teriyaki sauce, which is excellent, so don't go for the store bought stuff . . .make your own, it's worth it!",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -62719,7 +62719,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Nugget Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "youngsters will need just five ingredients to help prepare this easy entree.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -62784,7 +62784,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Shawarma",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "posted for zwt6",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -62890,7 +62890,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chinese Take Out Orange Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i've found it easier (and cheaper) to make chinese food at home. no more waiting for the delivery driver to bring you cold food, no more waiting to be served in a restaurant, no more tipping. this is one of many chinese recipes that i prepare, and we feast at home for a fraction of the price. the best part is, we know it is going to be good. i hope you enjoy this one of my many \"stay at home\" chinese dishes. prep time includes 1 hour marinade time and 1 hour refrigeration time after coating. step #4 has been edited in response to googles2 review. thank you chef for bringing this to my attention. :)",
     "totalTime": "PT2H50M",
     "recipeIngredient": [
@@ -63307,7 +63307,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cocoa Granola Bars",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is my variation on plain granola bars.  i threw them together today for a camping trip and the kids loved them.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -63386,7 +63386,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Coconut Basmati Rice",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is from the",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -63563,7 +63563,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cooking Light Magazine S Chicken Parmesan",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "ive tried quite a few chicken parmesan recipes and this one is by far the best and easiest.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -63645,7 +63645,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cordon Bleu Roll Oamc",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "adapted from company's coming make ahead meals.",
     "totalTime": "PT1H20M",
     "recipeIngredient": [
@@ -63730,7 +63730,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cornflake Crusted Baked Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this recipe is from everday foods. i just tried it out and it is soo good & crispy! i was impressed!!!! the recipe calls for bone-in legs and thighs, but i just used 4 breasts each cut into 3 diagonal strips.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -64292,7 +64292,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Crock Pot Red Beans And Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i'm not sure if this is \"traditional\" red beans and rice but it sure is good!  i cook the rice separately and let my family choose how they eat it.  my mom has yet to eat this with rice!",
     "totalTime": "PT4H30M",
     "recipeIngredient": [
@@ -64515,7 +64515,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Dijon Chicken Fettuccine",
-    "recipeCategory": "Main Course - Poultry",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a tasty fettuccine that's a great way to use leftover chicken!",
     "totalTime": "PT20M",
     "recipeIngredient": [
@@ -64570,7 +64570,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Dijon Chicken Salad Sandwiches",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "a better chicken salad sandwich.",
     "totalTime": "PT10M",
     "recipeIngredient": [
@@ -64698,7 +64698,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Easy Glazed Grilled Salmon",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "from gourmet magazine- july 1996. easy and delicious.",
     "totalTime": "PT14M",
     "recipeIngredient": [
@@ -64924,7 +64924,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Emeril S Shrimp And Pasta In A Spicy Tomato Chili Cream Sauce",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i got this recipe through a recipe exchange with a friend and it is very good! it does have quiet a few steps and ingredients but it is definitely worth it.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -65111,7 +65111,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Fantastic Chicken Curry",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this curry is easy with the addition of ready-made curry powder instead of making your own. the mango chutney gives a nice touch. goes nice with rice, and warm indian breads too!",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -65539,7 +65539,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Flavorful Chicken Enchilada Soup",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Soup & Stew",
     "description": "a mild but flavorful soup i created after my local store stopped carrying the enjoyable cugino's \"ridiculously delicious! chicken enchilada soup!\" you can simmer the soup for less time, but the flavors need time to meld together.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -65883,7 +65883,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Curry Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is quick and easy to make on a hot weeknight. just fire up the bbq, baste the chicken with the marinade and voila!\r\nyou can also double the sauce and bake the chicken in the oven.",
     "totalTime": "PT17M",
     "recipeIngredient": [
@@ -65978,7 +65978,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Garlic Pepper Shrimp",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "succulent shrimp, bursting with flavor and a healthy kick of spice. the skewers can be made ahead. try it with mixed vegetables, red pepper, onion, zucchini, whatever you like. prep time includes marinating time.",
     "totalTime": "PT1H15M",
     "recipeIngredient": [
@@ -66042,7 +66042,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Grilled Lobster Tails",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Seafood",
     "description": "when our sons were quite young, occasionally, after we put them to bed, my husband and i would have a special late night candlelight dinner. instead of paying for a babysitter, we would fix something really special and just dine in. it was always more fun then going out;>) this was one of our favorites.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -66213,7 +66213,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ground Turkey Spaghetti Sauce",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a fantastic, low fat spaghetti sauce i just tried out the other night. delicious!",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -66280,7 +66280,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Halupki Stuffed Cabbage Rolls",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "my grandmother matilda koval makes these....and they really warm you on a cold night. searve with mashed potatoes. these freeze well, and also taste better served the next day!",
     "totalTime": "PT1H45M",
     "recipeIngredient": [
@@ -66569,7 +66569,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Homemade Granola Bars Health Or Energy Bars",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "no fructose corn syrup.  can make an infinite combination of desired flavors…and better than store-bought, but be aware that these will be a tad softer.  the last ingredient should read \"white or chocolate chips\".",
     "totalTime": "PT2H45M",
     "recipeIngredient": [
@@ -67152,7 +67152,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Izzy S Salmon Chowder",
-    "recipeCategory": "Main Course - Seafood",
+    "recipeCategory": "Soup & Stew",
     "description": "my famous chowder. i spent some time try to figure out the exact measurements of ingredients; but it's a flexible recipe. be creative! you can cook this ahead of time (even 2-3 days; just be sure you don't nibble @_@); this soup tastes better with time.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -67449,7 +67449,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Kittencal S Mexi Ground Beef And Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a delicious tomato based rice dish, spicy pork sausage meat may be replaced for the ground beef which is what i prefer to use, make this as spicy as you like by adjusting the chili flakes,  the olives may be omitted i strongly suggest to add them in you could substitute 3/4 cup frozen peas, this recipe was developed using converted rice i can't promise the same results using another kind of rice",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -68263,7 +68263,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Monster Cookies",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is dd's favorite cookie. they come out about the size of the lid on the crisco can. not cheap to make, but fun to do with the kids once or twice a year for something special be sure to have a large dishpan or bowl to mix them up in.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -68319,7 +68319,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Moroccan Spiced Roast Potatoes",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "these potatoes are my favourite kind- crispy, flavourful and delicious! the spice paste here is my moroccan spice paste with added olive oil but i've copied it out here in full to make the recipe easier to use. cooking time includes time for the spices to blend. thanks to a review, here is a suggestion if using a convection oven- cook for 40 minutes total, the first 15 mins at 350f and thereafter turn it up to 400f.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -68575,7 +68575,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "No Cook Chocolate Eclair Squares",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "chocolate eclair flavor but totally hassle free! layers of graham crackers, pudding and chocolate make this a great dessert for all ages and any occasion! chill time not included in prep...plan ahead!",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -68970,7 +68970,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Oven Roasted Potatoes",
-    "recipeCategory": "Main Course",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "i was looking for a potato side dish to go with a meal and found this one that i had collected on the internet sometime in the past. i didn't have time to follow the oven directions so i cooked it in the microwave for 12 minutes. the family seems to really like paprika, they ate this up.\r\n\r\ni did some searching and the creator of this must have been a writer for toh.",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -69677,7 +69677,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Rice And Hamburger Casserole",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a family favorite of my mothers",
     "totalTime": "PT1H40M",
     "recipeIngredient": [
@@ -70137,7 +70137,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Smothered Cornish Game Hens",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is a change for cornish hen recipes. it is quite tasty.",
     "totalTime": "PT1H40M",
     "recipeIngredient": [
@@ -70311,7 +70311,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Spaghetti Sauce Made With Pork Neck Bone Italy 1870 1900",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this recipe came from southern italy around the 1900's. this is a very nice and thick sauce not running all over the plate. if it's not thick, you didn't cook it long enough. it's great on all dishes that uses spaghetti sauce.i always make at least 1/1/2 gallons of this sauce at a time.it freezes very well in containers. i use containers like the size of the large country crock butter bowl, enough for 4-8 servings at a time and use it when you feel the urge for this sauce. i always try to use it up in 6 months or so, then start all over making another batch.",
     "totalTime": "PT4H35M",
     "recipeIngredient": [
@@ -70679,7 +70679,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Spinach Cheese Manicotti",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "came across this  today in my local newspaper, it looks real good.",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -70928,7 +70928,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Sweet Amish Macaroni Salad Done Way",
-    "recipeCategory": "Dessert",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i went on a search for a good sweet(ish) macaroni salad.  i realize i am not capable of leaving a recipe alone so this is my version.  i also do not love eggs but the fam does so they say that the eggs must be added!",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -71426,7 +71426,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Three Meat Lasagna",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is just a variation of my own lasagna recipe. i say variation because i make it differently every time depending on what i have on hand and my mood. this is the first time i've written my lasagna recipe down. although i have made literally thousands of pans of lasagna throughout my years (i worked as a cook), i find this one perfectly acceptable (and i consider myself a lasagna snob). so you should certainly enjoy this, if not make it the only lasagna recipe you make from now on.",
     "totalTime": "PT1H40M",
     "recipeIngredient": [
@@ -71758,7 +71758,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Tofu Creamy Pasta Sauce",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this works well as a creamy sauce for pasta.  especially useful for those unable to have dairy or tomato sauces.  this is a beginning point, and maybe quite useful for elimination diets.  for those with less restrictions, i'd suggest adding herbs and onions to taste.  (i plan on developing such a recipe once i'm allowed onions again.)  i've been eating this with rice & millet pasta twists.",
     "totalTime": "PT15M",
     "recipeIngredient": [
@@ -71815,7 +71815,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Tsr Version Of Tgi Friday S Dragon Fire Chicken Wilbur",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "from www.topsecretrecipes.com marinated chicken breast topped with a kung pow sauce, mandarin oranges and pineapple pico de gallo.",
     "totalTime": "PT3H30M",
     "recipeIngredient": [
@@ -72221,7 +72221,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ww Asian Meatballs",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "from ww's simply the best cookbook.  these are actually presented as an appetizer in the original cookbook, but we usually serve them as a main dish over hot cooked jasmine rice.  wonderful and easy! 2 ww points per serving (as appetizer) or 4 ww points per serving as main dish.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -72289,7 +72289,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Ww Easy Barbecued Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this is another great recipe out of a ww cookbook called \"simple & classic homecooking\". dated 2000. it has 4 ww points.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -73027,7 +73027,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "7 Minute Rich And Creamy Polenta",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "polenta is one of my favorite comfort foods. this version comes from one of my favorite newspapers, the new york daily news.",
     "totalTime": "PT10M",
     "recipeIngredient": [
@@ -73094,7 +73094,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Apricot Glazed Chicken And Couscous",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "another entry for the \"i got home late, but still want a great meal\" category. you can make this faster than it would take to go out and get take-out. and it's delicious. this one is for 2, but can very easily be doubled.",
     "totalTime": "PT19M",
     "recipeIngredient": [
@@ -73403,7 +73403,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Baked Ranch Parmesan Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i found this recipe on line (don't remember where). i just made it tonight for supper and it was delicious. very moist and flavorful.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -73481,7 +73481,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Bbq Chicken And Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "my mom used to make this. it's incredibly easy and very tasty.",
     "totalTime": "PT50M",
     "recipeIngredient": [
@@ -74321,7 +74321,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Cheese Burger Alfredo Casserole",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "the recipe is dedicated to all those single parents and career people that don't have a lot of time at the end of the day to prepare dinner and that don't mind using prepared ingredients for a quick meal. i made this up because my daughter was sick with a cold and a sore throat and wanted something soft and easy to eat.  granted the french fried onions did not fit in with that idea, but they did add a nice taste and crunch to this casserole and she managed them just fine despite her sore throat.  since i was caring for both her and my baby grandson, i didn't have a lot of time to spend on making dinner.  the entire casserole (except for the spices) cost me about $20 and after feeding 3 adults, there is plenty left over for another meal or lunches at work the next day.  if you don't like leftovers, halve the recipe.  i much prefer using ingredients that do not come from a jar or a can, but sometimes, you just have to do what you have to do to put a meal on the table on a budget, and this was my attempt.  it is pretty tasty if i may say so for myself.",
     "totalTime": "PT35M",
     "recipeIngredient": [
@@ -74622,7 +74622,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Breasts Alla Margherita",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "another quick , easy and tasty chicken recipe",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -74788,7 +74788,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken L Orange",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i have no idea where this recipe originated, i've been making it for years.  my dh thinks it's one of those 'tough' recipe things...as you can see, easy but tasty!",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -74873,7 +74873,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Tenders With Lemon Spinach Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "tasty low-fat, easy to prepare chicken tenders with rice and vegetables which you can have on the table ready to enjoy in less than thirty minutes. adapted from a recipe in 'terrific chicken: 100 great meals in minutes'.",
     "totalTime": "PT26M",
     "recipeIngredient": [
@@ -74955,7 +74955,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chicken Broccoli Angel Hair Pasta",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "a very light and delicious recipe for the pasta lovers. your family will love it and it looks great on a plate.",
     "totalTime": "PT40M",
     "recipeIngredient": [
@@ -75023,7 +75023,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chinese Barbecued Chicken Wings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "based on a recipe from ken hom’s quick & easy chinese cooking.  ken says that you may substitute chicken breasts, making sure to cook for less time. as an appetizer, this recipe is engineered for a large group, but for a larger crowd, simply double or triple the ingredients. serve hot or at room temperature, which makes them suitable for picnics. the wings and sauce can be prepared in the morning of serving day, refrigerated, and simply taken out of the refrigerator in time to get them to room temperature before cooking. the barbecue sauce can be doubled in order to use half of it later for grilled lamb or pork chops.",
     "totalTime": "PT45M",
     "recipeIngredient": [
@@ -75092,7 +75092,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chinese Chicken Legs",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "from ww simply delicious. per serving: 172 calories, 3 g fat, 13 g carb, 52 mg cholesterol. any easy low-cal dinner that my family liked.",
     "totalTime": "PT1H10M",
     "recipeIngredient": [
@@ -75168,7 +75168,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chinese Stir Fry Over Crunchy Slaw",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "adapted from a recipe i found in a magazine.  you can serve rice on the side if you must but it really isn't needed this makes very generous, healthy portions.  the nutrional numbers on this recipe will be a little off because you throw away the marinade but it is in the ingredients (hope that makes sense, lol)",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -75263,7 +75263,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Chinese Take Out Fried Rice",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "nan",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -75694,7 +75694,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Creamy Spinach Mushroom Lasagna",
-    "recipeCategory": "Breakfast",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "this is a very rich, very tasty lasagna for when you're feeling like indulging. an",
     "totalTime": "PT1H",
     "recipeIngredient": [
@@ -76078,7 +76078,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Crock Pot Roasted Garlic",
-    "recipeCategory": "Appetizer & Salad",
+    "recipeCategory": "Main Course - Grills & Meats",
     "description": "this is a great method for roasting garlic, so it can be ready when you start cooking in the evening. i've even done it overnight and started cooking in the morning. roasted garlic goes great with mashed potatoes, on pasta, or simply spread on crusty bread.",
     "totalTime": "PT8H5M",
     "recipeIngredient": [
@@ -76130,7 +76130,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Easiest Chicken Rice Dish",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "i have been making this simple dish for years. it only contains 2 main ingredients but it is full of flavor.",
     "totalTime": "PT30M",
     "recipeIngredient": [
@@ -77156,7 +77156,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Hawaiian Saimin Soup",
-    "recipeCategory": "Soup & Stew",
+    "recipeCategory": "Main Course - Pasta & Pizza",
     "description": "an inexpensive noodle and broth soup, saimin is the favorite local fast food of the hawaiian islands (also considered the national dish of hawaii). it is considered the supreme comfort food of the islands, eaten at any time of day. you can find this soup at snack bars, coffee shops, and even on the mcdonald's menu (in hawaii only). saimin is basically the same thing as ramen, a japanese noodle soup. in hawaii, you will get the real thing, fresh, thin white noodles in a clear broth with green onions, kamaboko (fish cakes), and sometimes ham or char siu (pork). some people add chicken, eggs, shrimp, and whatever else is desired. the saimin is eaten very hot with chopsticks or spoons, and the broth is then drunk from the bowl. do not be afraid to slurp, as there is simply no quiet way to eat saimin. the prep time really varies, depending on what toppings you choose. enjoy!",
     "totalTime": "PT25M",
     "recipeIngredient": [
@@ -77411,7 +77411,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Hot Chipotle Chicken Wings",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "i was looking for a baked hot wing recipe.....using chipotle.....there were none. here it is. sugar free too. prep time does not include marination time.",
     "totalTime": "PT1H5M",
     "recipeIngredient": [
@@ -77592,7 +77592,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "John And Erin S Beer Butt Chicken Beer Can",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "this was our first attempt at beer butt chicken and it was awesome! you can change the flavor a bit by changing the beer you use.",
     "totalTime": "PT2H15M",
     "recipeIngredient": [
@@ -78289,7 +78289,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "Malibu Chicken",
-    "recipeCategory": "Main Course - Grills & Meats",
+    "recipeCategory": "Main Course - Poultry",
     "description": "a copycat from the menu of \"sizzler\",  which was a copycat of \"monterey chicken\",  which was a copycat of \"chicken cordon bleu\".... so copy away.",
     "totalTime": "PT50M",
     "recipeIngredient": [
