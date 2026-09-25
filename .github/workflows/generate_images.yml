@@ -1,0 +1,87 @@
+# .github/workflows/generate_images.yml
+name: Parallel Image Generation Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */5 * * *' # تشغيل تلقائي كل 5 ساعات
+
+jobs:
+  process-chunks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - group_id: "server-1"
+            start: 1
+            end: 10
+          - group_id: "server-2"
+            start: 11
+            end: 20
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # جلب جميع التحديثات لضمان عدم حدوث تعارض أثناء الـ Push
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Image Processing Script with Live Logs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PYTHONUNBUFFERED: "1" # لطباعة السجلات المباشرة فوراً
+        run: |
+          echo "🚀 Starting Process for Group: ${{ matrix.start }} to ${{ matrix.end }}"
+          python generate_images.py ${{ matrix.start }} ${{ matrix.end }}
+
+      - name: Commit & Push Updated JSON Files to Repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # إشارة للتغييرات في ملفات الـ JSON المستهدفة وملف التقدم
+          git add output_recipes_seo_2/chunk_recipes_*.json progress_group_*.json
+          
+          # التحقق من وجود تغييرات قبل عمل الـ Commit
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update recipe images in JSON files (Group ${{ matrix.start }}-${{ matrix.end }})"
+            
+            # سحب أحدث التغيرات لتفادي التعارض مع السيرفر الثاني
+            git pull --rebase origin ${{ github.ref_name }}
+            
+            # الرفع النهائي للمستودع
+            git push origin ${{ github.ref_name }}
+            echo "✅ Successfully pushed updated JSON files to the repository!"
+          else
+            echo "ℹ️ No changes detected in JSON files to commit."
+          fi
+
+      - name: Auto-Restart Workflow if Unfinished
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PROGRESS_FILE="progress_group_${{ matrix.start }}_${{ matrix.end }}.json"
+          if [ -f "$PROGRESS_FILE" ]; then
+            CURRENT_FILE=$(jq '.current_file' $PROGRESS_FILE)
+            if [ "$CURRENT_FILE" -le "${{ matrix.end }}" ]; then
+              echo "🔄 WORK UNFINISHED. Triggering next session..."
+              gh workflow run generate_images.yml
+            else
+              echo "🎉 ALL FILES COMPLETED FOR THIS SERVER!"
+            fi
+          fi
