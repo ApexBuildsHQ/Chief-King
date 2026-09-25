@@ -49,9 +49,10 @@ def save_progress(file_idx, processed_indices):
         json.dump({"current_file": file_idx, "processed_indices": processed_indices}, f, indent=2)
 
 def fetch_and_upload_image(recipe_name, file_num, recipe_idx, total_recipes):
-    prompt = urllib.parse.quote(f"delicious {recipe_name} food photography, centered, high quality")
-    # استخدام نموذج flux للصور مع تحديد أبعاد واضحة
-    ai_url = f"https://pollinations.ai/p/{prompt}?width=800&height=600&nologo=true&model=flux&seed={recipe_idx}"
+    clean_keyword = urllib.parse.quote(recipe_name)
+    ai_url = f"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" 
+    # أو للبحث المباشر عن نوع الوجبة مجاناً وبدون حظر:
+    ai_url = f"https://source.unsplash.com/800x600/?food,{clean_keyword}"
     
     clean_name = "".join([c if c.isalnum() else "_" for c in recipe_name]).lower()[:25]
     image_filename = f"img_f{file_num}_{recipe_idx}_{clean_name}.jpg"
