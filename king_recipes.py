@@ -157,6 +157,9 @@ def process_new_dataset():
         encoding='utf-8', 
         encoding_errors='replace'
     )
+    
+    df.columns = df.columns.str.strip()
+    
     print(f"📊 تم تحميل البيانات بنجاح! إجمالي الوصفات في الملف: {len(df):,}", flush=True)
 
     print("⭐ [خطوة 3/5] فرز وترتيب أعلى 20,000 وصفة تقييماً ومراجعة...", flush=True)
