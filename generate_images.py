@@ -49,16 +49,16 @@ def save_progress(file_idx, processed_indices):
         json.dump({"current_file": file_idx, "processed_indices": processed_indices}, f, indent=2)
 
 def fetch_and_upload_image(recipe_name, file_num, recipe_idx, total_recipes):
+    # تنظيف اسم الوصفة واستخدام محرك Unsplash المباشر للوجبات
     clean_keyword = urllib.parse.quote(recipe_name)
-    ai_url = f"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" 
-    # أو للبحث المباشر عن نوع الوجبة مجاناً وبدون حظر:
+    
+    # رابط مباشر ومستقر لا يتأثر بحظر 503 ويعيد صور طعام جودة عالية
     ai_url = f"https://source.unsplash.com/800x600/?food,{clean_keyword}"
     
     clean_name = "".join([c if c.isalnum() else "_" for c in recipe_name]).lower()[:25]
     image_filename = f"img_f{file_num}_{recipe_idx}_{clean_name}.jpg"
     
-    # فترات الانتظار المتصاعدة: 3 ثوانٍ -> 6 ثوانٍ -> 11 ثانية
-    delays = [3, 6, 11]
+    delays = [2, 4, 6]
     
     for attempt in range(3):
         log(f"⏱️ [انتظار] تأخير {delays[attempt]} ثوانٍ قبل المحاولة {attempt + 1}/3 للوجبة ({recipe_idx + 1}/{total_recipes})...")
@@ -67,23 +67,20 @@ def fetch_and_upload_image(recipe_name, file_num, recipe_idx, total_recipes):
         try:
             log(f"🌐 [طلب] جلب الصورة للوصفة: '{recipe_name}' (محاولة {attempt + 1})")
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
             }
-            response = requests.get(ai_url, headers=headers, timeout=25)
             
+            # اتباع إعادات التوجيه (allow_redirects=True) للحصول على الصورة الفعلية
+            response = requests.get(ai_url, headers=headers, timeout=25, allow_redirects=True)
             content_type = response.headers.get('Content-Type', '')
             image_size = len(response.content)
             
-            # التحقق الصارم: يجب أن تكون استجابة 200 ومن نوع صورة وبحجم أكبر من 15,000 بايت (تجنباً لصفحات الأخطاء)
             if response.status_code == 200 and 'image' in content_type and image_size > 15000:
                 log(f"📥 [تم التحميل] صورة صالحة بحجم: {image_size} bytes ({round(image_size / 1024, 1)} KB)")
                 
-                # حفظ مؤقت
                 with open(image_filename, 'wb') as img_f:
                     img_f.write(response.content)
                 
-                # رفع إلى Release
                 log(f"☁️ [رفع] رفع الصورة إلى GitHub Release...")
                 upload_cmd = f'gh release upload {RELEASE_TAG} "{image_filename}" --clobber'
                 result = subprocess.run(upload_cmd, shell=True, capture_output=True, text=True)
@@ -98,7 +95,7 @@ def fetch_and_upload_image(recipe_name, file_num, recipe_idx, total_recipes):
                 else:
                     log(f"❌ [خطأ رفع] فشل الرفع عبر GitHub CLI: {result.stderr.strip()}")
             else:
-                log(f"⚠️ [استجابة غير صالحة] الاستجابة ليست صورة حقيقية! الحجم: {image_size} bytes | النوع: {content_type} | كود الحالة: {response.status_code}")
+                log(f"⚠️ [استجابة غير صالحة] الحجم: {image_size} bytes | النوع: {content_type} | كود الحالة: {response.status_code}")
         except Exception as e:
             log(f"💥 [استثناء] فشلت المحاولة {attempt + 1}: {e}")
 
