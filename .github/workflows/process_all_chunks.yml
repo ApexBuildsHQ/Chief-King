@@ -1,0 +1,82 @@
+name: Process All 20 Recipe Chunks in Parallel
+
+on:
+  workflow_dispatch:
+
+jobs:
+  process-chunk:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONUNBUFFERED: "1"
+    strategy:
+      matrix:
+        chunk_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+      max-parallel: 20
+
+    steps:
+      - name: Checkout Chief-King Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          echo "📦 جاري تثبيت مكتبات Pillow و Requests..."
+          python -m pip install --upgrade pip
+          pip install requests pillow
+
+      - name: Run Processing for Chunk ${{ matrix.chunk_id }}
+        run: |
+          echo "🚀 استدعاء سكربت معالجة Chunk ${{ matrix.chunk_id }}..."
+          python fetch_and_embed_images.py ${{ matrix.chunk_id }}
+
+      - name: Push Images to chief-king-images Repository
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          echo "🌐 جاري الاتصال بمستودع الصور الخارجي (chief-king-images)..."
+          git clone https://x-access-token:${GH_PAT}@github.com/ApexBuildsHQ/chief-king-images.git temp_images_repo
+          mkdir -p temp_images_repo/recipes
+          cp -r output_images/* temp_images_repo/recipes/ 2>/dev/null || true
+          
+          cd temp_images_repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          
+          if git commit -m "Add WebP images for Chunk ${{ matrix.chunk_id }}"; then
+            echo "🔄 جاري محاولة الرفع لمستودع الصور..."
+            for i in {1..10}; do
+              if git pull --rebase origin main && git push origin main; then
+                echo "✅ تم رفع الصور بنجاح إلى chief-king-images!"
+                break
+              fi
+              SLEEP_TIME=$((RANDOM % 5 + 3))
+              echo "  ⚠️ حدث تعارض مع سيرفر آخر، انتظار $SLEEP_TIME ثوانٍ..."
+              sleep $SLEEP_TIME
+            done
+          fi
+
+      - name: Commit Updated JSON to Chief-King
+        run: |
+          echo "📝 جاري الرفع لمستودع Chief-King الرئيسي..."
+          cd $GITHUB_WORKSPACE
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output_recipes_seo/recipes_chunk_${{ matrix.chunk_id }}.json
+          
+          if git commit -m "Update JSON with CDN images for Chunk ${{ matrix.chunk_id }}"; then
+            echo "🔄 جاري محاولة الرفع لمستودع Chief-King الرئيسي..."
+            for i in {1..10}; do
+              if git pull --rebase origin main && git push origin main; then
+                echo "✅ تم تحديث ملف الـ JSON بنجاح في Chief-King!"
+                break
+              fi
+              SLEEP_TIME=$((RANDOM % 5 + 3))
+              echo "  ⚠️ حدث تعارض مع سيرفر آخر، انتظار $SLEEP_TIME ثوانٍ..."
+              sleep $SLEEP_TIME
+            done
+          fi
