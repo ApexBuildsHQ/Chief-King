@@ -157,16 +157,32 @@ def process_new_dataset():
         encoding='utf-8', 
         encoding_errors='replace'
     )
-    
+
+    # 🛠️ 1. تنظيف أغطية الأعمدة وإزالة أي مسافات أو رموز غير مرئية
     df.columns = df.columns.str.strip()
-    
+    print(f"📋 أسماء الأعمدة الموجودة في الملف: {list(df.columns)}", flush=True)
+
     print(f"📊 تم تحميل البيانات بنجاح! إجمالي الوصفات في الملف: {len(df):,}", flush=True)
 
     print("⭐ [خطوة 3/5] فرز وترتيب أعلى 20,000 وصفة تقييماً ومراجعة...", flush=True)
-    df['ReviewCount'] = pd.to_numeric(df['ReviewCount'], errors='coerce').fillna(0)
-    df['AggregatedRating'] = pd.to_numeric(df['AggregatedRating'], errors='coerce').fillna(0)
 
-    top_20k = df.sort_values(by=['ReviewCount', 'AggregatedRating'], ascending=[False, False]).head(20000)
+    # 🛠️ 2. البحث عن أعمدة التقييم والمراجعات بمرونة (حتى لو اختلفت حالات الأحرف)
+    review_col = next((col for col in df.columns if 'review' in col.lower()), None)
+    rating_col = next((col for col in df.columns if 'rating' in col.lower()), None)
+
+    sort_cols = []
+    if review_col:
+        df[review_col] = pd.to_numeric(df[review_col], errors='coerce').fillna(0)
+        sort_cols.append(review_col)
+    if rating_col:
+        df[rating_col] = pd.to_numeric(df[rating_col], errors='coerce').fillna(0)
+        sort_cols.append(rating_col)
+
+    if sort_cols:
+        top_20k = df.sort_values(by=sort_cols, ascending=[False] * len(sort_cols)).head(20000)
+    else:
+        top_20k = df.head(20000)
+
     print("✅ تم تحديد قائمة أعلى 20,000 وصفة شعبية بنجاح.", flush=True)
 
     output_dir = "output_recipes_seo_2"
@@ -193,7 +209,7 @@ def process_new_dataset():
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(file_recipes, f, ensure_ascii=False, indent=2)
             
-        print(f"  🟢 [ملف {i + 1}/20] تم تم إنشاؤه بنجاح: '{file_name}' ({len(file_recipes)} وصفة)", flush=True)
+        print(f"  🟢 [ملف {i + 1}/20] تم إنشاؤه بنجاح: '{file_name}' ({len(file_recipes)} وصفة)", flush=True)
 
     print(f"🎉 تم الانتهاء بنجاح! جميع الملفات الـ 20 محفوظة داخل مجلد '{output_dir}'.", flush=True)
 
