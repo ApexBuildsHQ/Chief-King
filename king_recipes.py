@@ -151,7 +151,7 @@ def process_new_dataset():
     output_dir = "chunk_recipes_seo"
     os.makedirs(output_dir, exist_ok=True)
 
-    print("Generating complete JSON-LD recipes into chunk_recipes_seo...")
+    print("Generating complete JSON-LD recipes into chunk_recipes_seo_2...")
     
     chunk_size = 1000
     total_files = 20
