@@ -146,7 +146,12 @@ def process_new_dataset():
         raise FileNotFoundError("ملف recipes.csv غير موجود في المسار.")
 
     # استخدام encoding_errors='replace' الصحيح لـ Pandas لضمان عدم توقف الكود
-    df = pd.read_csv(recipes_csv, encoding='utf-8', encoding_errors='replace')
+    df = pd.read_csv(
+    recipes_csv, 
+    encoding='utf-8', 
+    encoding_errors='replace',
+    on_bad_lines='skip'
+)
 
     print("Sorting top 20,000 recipes by ReviewCount and AggregatedRating...")
     df['ReviewCount'] = pd.to_numeric(df['ReviewCount'], errors='coerce').fillna(0)
