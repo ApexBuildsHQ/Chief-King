@@ -31,9 +31,25 @@ jobs:
         run: |
           echo "📥 بدء تحميل ملف البيانات من Kaggle..."
           kaggle datasets download -d irkaal/foodcom-recipes-and-reviews -f recipes.csv
+          
+          # فحص وفك ضغط الملف بأمان
           if [ -f "recipes.csv.zip" ]; then
-            echo "📦 فك الضغط عن الملف..."
+            echo "📦 تم العثور على recipes.csv.zip، جاري فك الضغط..."
             unzip -o recipes.csv.zip
+            rm recipes.csv.zip
+          elif file recipes.csv | grep -q 'Zip archive'; then
+            echo "📦 الملف recipes.csv عبارة عن Zip مضغوط، جاري فك الضغط..."
+            mv recipes.csv temp_recipes.zip
+            unzip -o temp_recipes.zip
+            rm temp_recipes.zip
+          fi
+
+          # التأكد التام من وجود الملف النصي الحقيقي
+          if [ -f "recipes.csv" ]; then
+            echo "✅ تم تجهيز ملف recipes.csv النصي بنجاح!"
+          else
+            echo "❌ خطأ: فشل في تجهيز ملف recipes.csv"
+            exit 1
           fi
 
       - name: Run Processing Script
