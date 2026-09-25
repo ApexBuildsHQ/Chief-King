@@ -145,13 +145,14 @@ def process_new_dataset():
     if not os.path.exists(recipes_csv):
         raise FileNotFoundError("ملف recipes.csv غير موجود في المسار.")
 
-    # استخدام encoding_errors='replace' الصحيح لـ Pandas لضمان عدم توقف الكود
+    # قراءة الملف بمحرك python لتجاوز خطأ الذاكرة Buffer Overflow
     df = pd.read_csv(
-    recipes_csv, 
-    encoding='utf-8', 
-    encoding_errors='replace',
-    on_bad_lines='skip'
-)
+        recipes_csv, 
+        engine='python',
+        on_bad_lines='skip',
+        encoding='utf-8', 
+        encoding_errors='replace'
+    )
 
     print("Sorting top 20,000 recipes by ReviewCount and AggregatedRating...")
     df['ReviewCount'] = pd.to_numeric(df['ReviewCount'], errors='coerce').fillna(0)
@@ -160,7 +161,7 @@ def process_new_dataset():
     # اختيار أشهر 20,000 وصفة بناءً على عدد التقييمات والمراجعات
     top_20k = df.sort_values(by=['ReviewCount', 'AggregatedRating'], ascending=[False, False]).head(20000)
 
-    # اسم المجلد المطلوب
+    # مجلد المخرجات المطلوب
     output_dir = "output_recipes_seo_2"
     os.makedirs(output_dir, exist_ok=True)
 
@@ -179,7 +180,6 @@ def process_new_dataset():
             json_ld = build_full_recipe_json_ld(row)
             file_recipes.append(json_ld)
 
-        # التسمية المطلوبة: chunk_recipes_{number}.json
         file_name = f"chunk_recipes_{i + 1}.json"
         file_path = os.path.join(output_dir, file_name)
         
@@ -189,6 +189,3 @@ def process_new_dataset():
         print(f"Saved: {file_path} ({len(file_recipes)} recipes)")
 
     print(f"✅ Success! All 20,000 recipes saved inside '{output_dir}'.")
-
-if __name__ == "__main__":
-    process_new_dataset()
