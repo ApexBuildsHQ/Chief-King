@@ -138,7 +138,7 @@ def process_new_dataset():
         raise FileNotFoundError("ملف recipes.csv الخاص بمكتبة irkaal غير موجود في المسار.")
 
     # قراءة الملف مع تحديد الأعمدة المطلوبة لتسريع العملية
-    df = pd.read_csv(recipes_csv)
+    df = pd.read_csv(recipes_csv, encoding='utf-8', errors='replace')
 
     print("Sorting recipes by ReviewCount and AggregatedRating...")
     # ملء القيم الفارغة في التقييمات والمراجعات بالصفر لضمان الترتيب الصحيح
