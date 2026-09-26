@@ -1,0 +1,44 @@
+name: Generate AI Images via Parallel Matrix (20 Independent Servers)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-images-matrix:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false # يضمن استمرار السيرفرات الباقية لو حدث أي استثناء في سيرفر ما
+      matrix:
+        # تشغيل 20 سيرفر مستقل في نفس الوقت (كل سيرفر يتولى ملف chunk من 1 إلى 20)
+        file_chunk: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests huggingface_hub
+
+      - name: Run Processing Script for Chunk ${{ matrix.file_chunk }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_DATASET_REPO: "bin-data-node/recipe-images"
+        run: |
+          python generate_images.py ${{ matrix.file_chunk }}
+
+      - name: Commit and Push Updated JSON to GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase || true
+          git add output_recipes_seo_2/chunk_recipes_${{ matrix.file_chunk }}.json
+          git add progress_file_${{ matrix.file_chunk }}.json || true
+          git commit -m "Auto-update images for chunk ${{ matrix.file_chunk }}" || echo "No changes to commit"
+          git push origin main || true
