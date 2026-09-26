@@ -40,5 +40,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: seo-chunk-${{ matrix.chunk_id }}
-          path: output_recipes_seo_2/recipes_chunk_${{ matrix.chunk_id }}.json
+          path: output_recipes_seo_2/chunk_recipes_${{ matrix.chunk_id }}.json
 
