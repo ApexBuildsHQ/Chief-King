@@ -97,8 +97,8 @@ def main():
 
     chunk_id = args.chunk
     
-    input_file = f"output_recipes_2/recipes_chunk_{chunk_id}.json"
-    output_dir = "output_recipes_seo"
+    input_file = f"output_recipes_seo_2/recipes_chunk_{chunk_id}.json"
+    output_dir = "output_recipes_seo_2"
     output_file = os.path.join(output_dir, f"recipes_chunk_{chunk_id}.json")
 
     os.makedirs(output_dir, exist_ok=True)
