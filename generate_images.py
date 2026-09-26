@@ -67,76 +67,89 @@ def generate_ai_prompt(recipe):
     return prompt
 
 def generate_and_upload_hf(recipe, recipe_idx, total_recipes):
-    recipe_name = recipe.get('name', f'recipe_{recipe_idx}')
-    clean_name = "".join([c if c.isalnum() else "_" for c in recipe_name]).lower()[:25]
-    
-    image_filename = f"img_f{FILE_NUM}_{recipe_idx}_{clean_name}.jpg"
-    repo_path = f"images/file_{FILE_NUM}/{image_filename}"
-    
-    prompt = generate_ai_prompt(recipe)
-    
-    # التوليد المجاني عبر Gradio Space لنموذج FLUX (بدون استهلاك رصيد API)
-    spaces = [
-        "black-forest-labs/FLUX.1-schnell",
-        "prodia/fast-stable-diffusion"
-    ]
-    
-    for attempt, space_name in enumerate(spaces):
-        try:
-            log(f"🎨 [إنشاء AI عبر Space] طلب التوليد من Space مجاني '{space_name}' للوجبة ({recipe_idx + 1}/{total_recipes}): '{recipe_name}'")
-            log(f"📝 [Prompt]: {prompt[:100]}...")
-            
-            # الاتصال بالمساحة المجانية عبر gradio_client
-            client = Client(space_name, hf_token=HF_TOKEN)
-            
-            if "FLUX" in space_name:
-                result = client.predict(
-                    prompt=prompt,
-                    seed=recipe_idx,
-                    randomize_seed=True,
-                    width=1024,
-                    height=1024,
-                    num_inference_steps=4,
-                    api_name="/infer"
-                )
-            else:
-                result = client.predict(prompt=prompt)
-            
-            # استخراج مسار الصورة المؤقت الناتج من Gradio
-            temp_img_path = result[0] if isinstance(result, (list, tuple)) else result
-            
-            if temp_img_path and os.path.exists(temp_img_path):
-                img = Image.open(temp_img_path)
-                if img.mode != "RGB":
-                    img = img.convert("RGB")
-                img.save(image_filename, "JPEG", quality=90)
-                
-                if os.path.exists(image_filename) and os.path.getsize(image_filename) > 0:
-                    img_kb = round(os.path.getsize(image_filename) / 1024, 1)
-                    log(f"📥 [تم التوليد بنجاح] حجم الصورة الناتجة: {img_kb} KB")
-                    
-                    # رفع الصورة إلى المستودع Target Dataset
-                    log(f"☁️ [رفع HuggingFace] رفع إلى المستودع: {HF_DATASET_REPO}/{repo_path}")
-                    hf_api.upload_file(
-                        path_or_fileobj=image_filename,
-                        path_in_repo=repo_path,
-                        repo_id=HF_DATASET_REPO,
-                        repo_type="dataset"
-                    )
-                    
-                    if os.path.exists(image_filename):
-                        os.remove(image_filename)
-                    
-                    cdn_url = f"https://huggingface.co/datasets/{HF_DATASET_REPO}/resolve/main/{repo_path}"
-                    log(f"✨ [نجاح تام] تم التوليد والرفع! الرابط الجديد: {cdn_url}")
-                    return cdn_url
-                    
-        except Exception as e:
-            log(f"⚠️ [محاولة {attempt + 1} فشلت مع Space {space_name}]: {e}")
-            time.sleep(3)
+  recipe_name = recipe.get('name', f'recipe_{recipe_idx}')
+  clean_name = ''.join([c if c.isalnum() else '_' for c in recipe_name]).lower()[
+      :25
+  ]
 
-    log(f"🛑 [فشل كامل] تعذر التوليد عبر Gradio Spaces للوجبة: '{recipe_name}'.")
-    return ""
+  image_filename = f'img_f{FILE_NUM}_{recipe_idx}_{clean_name}.jpg'
+  repo_path = f'images/file_{FILE_NUM}/{image_filename}'
+
+  prompt = generate_ai_prompt(recipe)
+
+  spaces = [
+      'black-forest-labs/FLUX.1-schnell',
+      'prodia/fast-stable-diffusion',
+  ]
+
+  for attempt, space_name in enumerate(spaces):
+    try:
+      log(
+          f"🎨 [إنشاء AI عبر Space] طلب التوليد من Space مجاني '{space_name}'"
+          f" للوجبة ({recipe_idx + 1}/{total_recipes}): '{recipe_name}'"
+      )
+      log(f'📝 [Prompt]: {prompt[:100]}...')
+
+      # التعديل هنا: استخدام token بدلاً من hf_token
+      client = Client(space_name, token=HF_TOKEN)
+
+      if 'FLUX' in space_name:
+        result = client.predict(
+            prompt=prompt,
+            seed=recipe_idx,
+            randomize_seed=True,
+            width=1024,
+            height=1024,
+            num_inference_steps=4,
+            api_name='/infer',
+        )
+      else:
+        result = client.predict(prompt=prompt)
+
+      temp_img_path = (
+          result[0] if isinstance(result, (list, tuple)) else result
+      )
+
+      if temp_img_path and os.path.exists(temp_img_path):
+        img = Image.open(temp_img_path)
+        if img.mode != 'RGB':
+          img = img.convert('RGB')
+        img.save(image_filename, 'JPEG', quality=90)
+
+        if (
+            os.path.exists(image_filename)
+            and os.path.getsize(image_filename) > 0
+        ):
+          img_kb = round(os.path.getsize(image_filename) / 1024, 1)
+          log(f'📥 [تم التوليد بنجاح] حجم الصورة الناتجة: {img_kb} KB')
+
+          log(
+              '☁️ [رفع HuggingFace] رفع إلى المستودع:'
+              f' {HF_DATASET_REPO}/{repo_path}'
+          )
+          hf_api.upload_file(
+              path_or_fileobj=image_filename,
+              path_in_repo=repo_path,
+              repo_id=HF_DATASET_REPO,
+              repo_type='dataset',
+          )
+
+          if os.path.exists(image_filename):
+            os.remove(image_filename)
+
+          cdn_url = f'https://huggingface.co/datasets/{HF_DATASET_REPO}/resolve/main/{repo_path}'
+          log(f'✨ [نجاح تام] تم التوليد والرفع! الرابط الجديد: {cdn_url}')
+          return cdn_url
+
+    except Exception as e:
+      log(f'⚠️ [محاولة {attempt + 1} فشلت مع Space {space_name}]: {e}')
+      time.sleep(3)
+
+  log(
+      '🛑 [فشل كامل] تعذر التوليد عبر Gradio Spaces للوجبة:'
+      f" '{recipe_name}'."
+  )
+  return ''
 
 def run_pipeline():
     log(f"🚀 [بدء السيرفر المستقل #{FILE_NUM}] التكليف: معالجة chunk_recipes_{FILE_NUM}.json")
