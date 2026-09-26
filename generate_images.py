@@ -74,7 +74,7 @@ def generate_and_upload_hf(recipe, recipe_idx, total_recipes):
     image_filename = f"img_f{FILE_NUM}_{recipe_idx}_{clean_name}.jpg"
     repo_path = f"images/file_{FILE_NUM}/{image_filename}"
     
-    API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+    API_URL = "https://router.huggingface.co/hf-inference/v1/models/black-forest-labs/FLUX.1-schnell"
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
     
     prompt = generate_ai_prompt(recipe)
