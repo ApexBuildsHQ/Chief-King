@@ -1,0 +1,72 @@
+name: SEO AI Title Optimization (20 Parallel Runners)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  seo-ai-processing:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: pip install requests
+
+      - name: Install & Run Ollama Engine
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          sleep 5
+          ollama pull qwen2.5:3b
+
+      - name: Run SEO Optimization for Chunk ${{ matrix.chunk_id }}
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python process_seo.py --chunk ${{ matrix.chunk_id }}
+
+      - name: Save SEO Processed Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-chunk-${{ matrix.chunk_id }}
+          path: output_recipes_seo_2/chunk_recipes_${{ matrix.chunk_id }}.json
+
+  commit-and-push-results:
+    needs: seo-ai-processing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download all Chunk Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: temp_artifacts
+
+      - name: Move Processed Files to Target Directory
+        run: |
+          mkdir -p output_recipes_seo_2
+          cp -r temp_artifacts/seo-chunk-*/* output_recipes_seo_2/
+          rm -rf temp_artifacts
+
+      - name: Commit & Push Processed Recipes to Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output_recipes_seo_2/
+          git commit -m "Auto-update: Apply SEO title optimizations to chunk recipes" || echo "No changes to commit"
+          git push
