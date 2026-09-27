@@ -1,0 +1,76 @@
+name: Translate Recipes & Generate Indexes
+
+on:
+  workflow_dispatch:
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  # المرحلة الأولى: 20 سيرفر يعملون بشكل متوازي للترجمة والتقسيم
+  translate-matrix:
+    name: Server Chunk ${{ matrix.chunk }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        chunk: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+      fail-fast: false
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          echo "Installing PyTorch & HuggingFace Transformers..."
+          python -m pip install --upgrade pip
+          pip install torch transformers sentencepiece
+
+      - name: Run Translation and Chunking
+        run: |
+          python scripts/translate_chunk.py --chunk-id ${{ matrix.chunk }}
+
+      - name: Upload Processed Chunks Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: translated-chunks-${{ matrix.chunk }}
+          path: public/data/recipes/
+
+  # المرحلة الثانية: سيرفر التجميع لإنشاء الفهارس وخارطة الصور
+  build-indexes-and-map:
+    name: Consolidate Images Map & Indexes
+    needs: translate-matrix
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Download All Translated Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: public/data/recipes/
+          pattern: translated-chunks-*
+          merge-multiple: true
+
+      - name: Build Images Map and Indexes
+        run: |
+          python scripts/build_indexes_and_imagemap.py
+
+      - name: Commit and Push Processed Files
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add public/data/
+          git commit -m "Auto-generated 50-language chunks, indexes, and images_map" || exit 0
+          git push
