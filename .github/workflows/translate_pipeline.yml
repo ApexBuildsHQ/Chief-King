@@ -32,6 +32,8 @@ jobs:
           pip install torch transformers sentencepiece
 
       - name: Run Translation and Chunking
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           python scripts/translate_chunk.py --chunk-id ${{ matrix.chunk }}
 
